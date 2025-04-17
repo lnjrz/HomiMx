@@ -1,0 +1,9 @@
+CAT_LUG	DES_LUG
+1	Espacio institucional
+2	Espacio laboral
+3	Espacio recreativo o público
+4	Hogar
+5	Vía pública
+6	Otro
+7	No especificado
+8	No aplica

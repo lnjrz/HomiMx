@@ -1,0 +1,24 @@
+Package: HomiMx
+Title: Tablas de Homicidios en México a partir de microdatos del INEGI
+Version: 1.0.0
+Authors@R: 
+    person("Alan", "Juárez", email = "ln.jrz.grc@gmail.com", role = c("aut", "cre"))
+Description: Este paquete permite generar tablas de homicidios en México con base en los microdatos de defunciones del INEGI de 1990 a 2023. 
+    Incluye funciones para desagregar por año, sexo, entidad, municipio, causa de defunción, ocupación, nivel educativo, estado civil, lugar, día, mes y hora.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 3.5)
+Imports: 
+    dplyr,
+    tidyr,
+    knitr,
+    ggplot2
+Suggests: 
+    rmarkdown,
+    testthat,
+    pkgdown
+VignetteBuilder: knitr

@@ -1,0 +1,102 @@
+---
+title: "Uso de funciones para generar tablas de homicidios usando homiMx"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Uso de funciones para generar tablas}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Introducción
+
+Este paquete permite generar tablas de homicidios con diferentes desagregaciones. La información corresponde a las defunciones por homicidio (agresiones) publicadas por el INEGI cada año. El periodo de registro de la información abarca de 1990 hasta 2023.
+
+Mediante el procesamiento de las 33 bases de datos anuales, fue obtenida una base de datos que integra los homicidios de todo el periodo. Para ello, se utilizaron equivalencias de la CIE-9 y CIE-10. Además de homologación de variables entre los diferentes años, como: causa de la defunción, ocupación, nivel educativo, estado civil, lugar de ocurrencia, mes, día y hora.
+
+A través de funciones como *tabla_total()* y _tabla_causa()_, es posible obtener el total de homicidios por año de registro u ocurrencia. Además, hacer desagregaciones por sexo, entidad y municipio.
+
+Como se mencionó, toda la información es contenida en una base de datos llamada "homidata". Las funciones para la versión 1.0.0 son las siguientes
+
+
+```{r, eval = FALSE}
+# Funciones en el package homiMx
+tabla_total()
+tabla_causa()
+tabla_ocupacion()
+tabla_educacion()
+tabla_edocivil()
+tabla_lugar()
+tabla_mes()
+tabla_dia()
+tabla_hora()
+
+```
+Por simpleza de esta viñeta, a continuación se explica el funcionamiento de la función *tabla_total()* y *tabla_causa()*, ya que el resto de funciones siguen la misma lógica de funcionamiento.
+
+## Función *tabla_total()*
+
+La función contiene cuatro parametros, y solo es obligatorio especificar la base de datos __*(homidata)*__. Opcionalmente, el usuario puede especificar *anio_tipo*, es decir el año de "ocurrencia" o "registro". También puede selecionar la desagregación por "entidad" o "municipio" mediante el parametro *desagregacion* y especificar la desagregación geográfica como "registro" u "ocurrencia" con el parametro *geo_tipo*. Si el usuario no especifica los parametros opcionales, la función mostrara una tabla por año de ocurrencia sin desagregación geográfica, es decir, los homicidios que ocurrieron año con año como se muestra en la siguiente tabla:
+
+
+```{r tabla_total, echo=FALSE}
+knitr::kable(
+  head(tabla_total(homidata),10),
+  caption = "Homicidios nacionales por año (año de ocurrencia)"
+)
+```
+
+Al usar los parametros, es posible obtener una tabla por año de registro, entidad o municipio de ocurrencia: 
+```{r, eval = FALSE}
+# Estructura completa
+tabla_total(homidata, anio_tipo="registro", desagregacion="entidad", geo_tipo="ocurrencia")
+
+```
+
+```{r tabla_total_com, echo=FALSE}
+knitr::kable(
+  head(tabla_total(homidata, anio_tipo = "registro",desagregacion = "entidad",geo_tipo = "ocurrencia"),10),
+  caption = "Homicidios nacionales por año (año de ocurrencia)"
+)
+```
+Como se puede observar, esta función proporciona cinco columnas en su forma predeterminada, una para los años y el resto para la desagregación por sexo. Al usar los parámetros, la función proporciona una columna que contiene la clave oficial de la entidad federativa o del municipio.  
+
+Al respecto, este package cuenta con catalogos de las entidades federativas __*cat_entidades*__ y de los municipios __*cat_municipios*__, para facilitar la identificación por nombre de los diferentes ámbitos geográficos.
+
+## Función *tabla_causa()*
+
+La principal diferencia de esta función (y del resto de funciones) con la función __tabla_total()__, es que las columnas de la tabla generada corresponden a las categorías de la función y no al sexo. En este caso, muestra las causas de la defunción listadas en CIE-10 y CIE-9, las cuales fueron reclasificadas mediante equivalencias para obtener homicidios cometidos por: disparo de arma de fuego, agresión con objeto cortante o punzante, ahorcamiento, extrangulamiento o asfixia, otros medio y medios no especificados.
+
+Por ello, la estructura de la función tiene una pequeña variación, incorporando el paramétro *sexo* el cual puede tomar el valor "hombres" o "mujeres" y por defecto muestra el total. De tal forma, la función completa se construye de la siguiente forma:
+
+```{r, eval = FALSE}
+# Estructura completa
+tabla_causa(homidata, anio_tipo = "registro", desagregacion = "entidad", geo_tipo = "ocurrencia", sexo="hombres")
+
+```
+
+Y genera la siguiente tabla:
+
+```{r tabla_causa_com, echo=FALSE}
+knitr::kable(
+  head(tabla_causa(homidata, anio_tipo = "registro", desagregacion = "entidad", geo_tipo = "ocurrencia", sexo="hombres"),10),
+  caption = "Homicidios por año de registro y entidad según causa de defunción"
+)
+```
+
+La estructura del resto de funciones está pensanda de la misma forma.
+
+## Cómo acceder a esta viñeta
+
+Puedes acceder a esta viñeta desde R con:
+
+```r
+browseVignettes("homiMx")
+```
+

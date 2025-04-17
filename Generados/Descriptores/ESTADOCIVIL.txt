@@ -1,0 +1,9 @@
+CAT_CIVIL	DES_CIVIL
+1	Casado(a)
+2	Divorciado(a)
+3	No aplica
+4	No especificado
+5	Separado(a)
+6	Soltero(a)
+7	Unión libre
+8	Viudo(a)

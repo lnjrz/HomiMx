@@ -1,0 +1,739 @@
+﻿ID_OCU,AÑO_REG,CVE,DES,CAT,CAT_DES
+1990.2,1990,2,No trabaja ,4,No trabajaba
+1990.11,1990,11,Profesionistas ,8,Profesionista o técnicos
+1990.12,1990,12,Técnicos ,8,Profesionista o técnicos
+1990.13,1990,13,Trabajadores de la enseñanza,8,Profesionista o técnicos
+1990.14,1990,14,"Trabajadores del arte, espectáculos y deportes ",3,"Empleados, auxiliares o ayudantes"
+1990.21,1990,21,Funcionarios superiores de la administración pública ,7,Directores o coordinadores
+1990.22,1990,22,Funcionarios superiores y propietarios del sector privado excepto agropecuario ,7,Directores o coordinadores
+1990.31,1990,31,Administradores y propietarios del sector agropecuario ,1,Agricultor
+1990.41,1990,41,Capataces y mayorales en el proceso de producción agropecuaria ,1,Agricultor
+1990.42,1990,42,Trabajadores directos en el proceso de producción agropecuaria ,3,"Empleados, auxiliares o ayudantes"
+1990.43,1990,43,Personal de apoyo en el proceso de producción agropecuaria ,1,Agricultor
+1990.51,1990,51,Personal de control en el proceso de producción industrial ,3,"Empleados, auxiliares o ayudantes"
+1990.52,1990,52,Trabajadores directos en el proceso de producción industrial ,3,"Empleados, auxiliares o ayudantes"
+1990.53,1990,53,Ayudantes en el proceso de producción industrial ,3,"Empleados, auxiliares o ayudantes"
+1990.61,1990,61,Trabajadores administrativos de nivel medio e inferior ,3,"Empleados, auxiliares o ayudantes"
+1990.71,1990,71,"Vendedores, dependientes y agentes de ventas ",5,Comerciantes
+1990.72,1990,72,Vendedores sin establecimiento fijo ,5,Comerciantes
+1990.81,1990,81,"Trabajadores en servicios al público, excepto doméstico ",3,"Empleados, auxiliares o ayudantes"
+1990.82,1990,82,Trabajadores en servicios domésticos ,3,"Empleados, auxiliares o ayudantes"
+1990.83,1990,83,"Operadores de equipo de transporte, excepto particulares ",6,Operadores o conductores
+1990.84,1990,84,"Trabajadores de fuerzas armadas, protección y vigilancia ",11,Seguridad
+1990.98,1990,98,No clasificadas anteriormente ,9,No especificado
+1990.99,1990,99,No especificada,9,No especificado
+1991.2,1991,2,No trabaja ,4,No trabajaba
+1991.11,1991,11,Profesionistas ,8,Profesionista o técnicos
+1991.12,1991,12,Técnicos ,8,Profesionista o técnicos
+1991.13,1991,13,Trabajadores de la enseñanza,8,Profesionista o técnicos
+1991.14,1991,14,"Trabajadores del arte, espectáculos y deportes ",3,"Empleados, auxiliares o ayudantes"
+1991.21,1991,21,Funcionarios superiores de la administración pública ,7,Directores o coordinadores
+1991.22,1991,22,Funcionarios superiores y propietarios del sector privado excepto agropecuario ,7,Directores o coordinadores
+1991.31,1991,31,Administradores y propietarios del sector agropecuario ,1,Agricultor
+1991.41,1991,41,Capataces y mayorales en el proceso de producción agropecuaria ,1,Agricultor
+1991.42,1991,42,Trabajadores directos en el proceso de producción agropecuaria ,3,"Empleados, auxiliares o ayudantes"
+1991.43,1991,43,Personal de apoyo en el proceso de producción agropecuaria ,1,Agricultor
+1991.51,1991,51,Personal de control en el proceso de producción industrial ,3,"Empleados, auxiliares o ayudantes"
+1991.52,1991,52,Trabajadores directos en el proceso de producción industrial ,3,"Empleados, auxiliares o ayudantes"
+1991.53,1991,53,Ayudantes en el proceso de producción industrial ,3,"Empleados, auxiliares o ayudantes"
+1991.61,1991,61,Trabajadores administrativos de nivel medio e inferior ,3,"Empleados, auxiliares o ayudantes"
+1991.71,1991,71,"Vendedores, dependientes y agentes de ventas ",5,Comerciantes
+1991.72,1991,72,Vendedores sin establecimiento fijo ,5,Comerciantes
+1991.81,1991,81,"Trabajadores en servicios al público, excepto doméstico ",3,"Empleados, auxiliares o ayudantes"
+1991.82,1991,82,Trabajadores en servicios domésticos ,3,"Empleados, auxiliares o ayudantes"
+1991.83,1991,83,"Operadores de equipo de transporte, excepto particulares ",6,Operadores o conductores
+1991.84,1991,84,"Trabajadores de fuerzas armadas, protección y vigilancia ",11,Seguridad
+1991.98,1991,98,No clasificadas anteriormente ,9,No especificado
+1991.99,1991,99,No especificada,9,No especificado
+1992.2,1992,2,No trabaja ,4,No trabajaba
+1992.11,1992,11,Profesionistas ,8,Profesionista o técnicos
+1992.12,1992,12,Técnicos ,8,Profesionista o técnicos
+1992.13,1992,13,Trabajadores de la educación ,8,Profesionista o técnicos
+1992.14,1992,14,"Trabajadores del arte, deportes y espectáculos ",3,"Empleados, auxiliares o ayudantes"
+1992.21,1992,21,Funcionarios y directivos ,7,Directores o coordinadores
+1992.41,1992,41,"Trabajadores en actividades agrícolas, ganaderas, caza y pesca ",1,Agricultor
+1992.51,1992,51,Personal de control en el proceso de producción industrial ,3,"Empleados, auxiliares o ayudantes"
+1992.52,1992,52,Trabajadores en la industria de la transformación ,3,"Empleados, auxiliares o ayudantes"
+1992.53,1992,53,Operadores de maquinaria fija ,6,Operadores o conductores
+1992.54,1992,54,Ayudantes en el proceso de producción industrial y artesanal ,3,"Empleados, auxiliares o ayudantes"
+1992.55,1992,55,Conductores de maquinaria móvil y medios de transporte ,6,Operadores o conductores
+1992.61,1992,61,Trabajadores administrativos de nivel intermedio ,3,"Empleados, auxiliares o ayudantes"
+1992.62,1992,62,Trabajadores administrativos de nivel inferior ,3,"Empleados, auxiliares o ayudantes"
+1992.71,1992,71,"Comerciantes, empleados de comercio y agentes de ventas ",5,Comerciantes
+1992.72,1992,72,Vendedores ambulantes ,5,Comerciantes
+1992.81,1992,81,Trabajadores en servicios personales en establecimientos ,3,"Empleados, auxiliares o ayudantes"
+1992.82,1992,82,Trabajadores en servicios domésticos ,3,"Empleados, auxiliares o ayudantes"
+1992.83,1992,83,"Trabajadores de fuerzas armadas, protección y vigilancia ",11,Seguridad
+1992.98,1992,98,Insuficientemente especificada ,9,No especificado
+1992.99,1992,99,No especificada,9,No especificado
+1993.2,1993,2,No trabaja ,4,No trabajaba
+1993.11,1993,11,Profesionistas ,8,Profesionista o técnicos
+1993.12,1993,12,Técnicos ,8,Profesionista o técnicos
+1993.13,1993,13,Trabajadores de la educación ,8,Profesionista o técnicos
+1993.14,1993,14,"Trabajadores del arte, deportes y espectáculos ",3,"Empleados, auxiliares o ayudantes"
+1993.21,1993,21,Funcionarios y directivos ,7,Directores o coordinadores
+1993.41,1993,41,"Trabajadores en actividades agrícolas, ganaderas, caza y pesca ",1,Agricultor
+1993.51,1993,51,Personal de control en el proceso de producción industrial ,3,"Empleados, auxiliares o ayudantes"
+1993.52,1993,52,Trabajadores en la industria de la transformación ,3,"Empleados, auxiliares o ayudantes"
+1993.53,1993,53,Operadores de maquinaria fija ,6,Operadores o conductores
+1993.54,1993,54,Ayudantes en el proceso de producción industrial y artesanal ,3,"Empleados, auxiliares o ayudantes"
+1993.55,1993,55,Conductores de maquinaria móvil y medios de transporte ,6,Operadores o conductores
+1993.61,1993,61,Trabajadores administrativos de nivel intermedio ,3,"Empleados, auxiliares o ayudantes"
+1993.62,1993,62,Trabajadores administrativos de nivel inferior ,3,"Empleados, auxiliares o ayudantes"
+1993.71,1993,71,"Comerciantes, empleados de comercio y agentes de ventas ",5,Comerciantes
+1993.72,1993,72,Vendedores ambulantes ,5,Comerciantes
+1993.81,1993,81,Trabajadores en servicios personales en establecimientos ,3,"Empleados, auxiliares o ayudantes"
+1993.82,1993,82,Trabajadores en servicios domésticos ,3,"Empleados, auxiliares o ayudantes"
+1993.83,1993,83,"Trabajadores de fuerzas armadas, protección y vigilancia ",11,Seguridad
+1993.98,1993,98,Insuficientemente especificada ,9,No especificado
+1993.99,1993,99,No especificada,9,No especificado
+1994.2,1994,2,No trabaja ,4,No trabajaba
+1994.11,1994,11,Profesionistas ,8,Profesionista o técnicos
+1994.12,1994,12,Técnicos ,8,Profesionista o técnicos
+1994.13,1994,13,Trabajadores de la educación ,8,Profesionista o técnicos
+1994.14,1994,14,"Trabajadores del arte, deportes y espectáculos ",3,"Empleados, auxiliares o ayudantes"
+1994.21,1994,21,Funcionarios y directivos ,7,Directores o coordinadores
+1994.41,1994,41,"Trabajadores en actividades agrícolas, ganaderas, caza y pesca ",1,Agricultor
+1994.51,1994,51,Personal de control en el proceso de producción industrial ,3,"Empleados, auxiliares o ayudantes"
+1994.52,1994,52,Trabajadores en la industria de la transformación ,3,"Empleados, auxiliares o ayudantes"
+1994.53,1994,53,Operadores de maquinaria fija ,6,Operadores o conductores
+1994.54,1994,54,Ayudantes en el proceso de producción industrial y artesanal ,3,"Empleados, auxiliares o ayudantes"
+1994.55,1994,55,Conductores de maquinaria móvil y medios de transporte ,6,Operadores o conductores
+1994.61,1994,61,Trabajadores administrativos de nivel intermedio ,3,"Empleados, auxiliares o ayudantes"
+1994.62,1994,62,Trabajadores administrativos de nivel inferior ,3,"Empleados, auxiliares o ayudantes"
+1994.71,1994,71,"Comerciantes, empleados de comercio y agentes de ventas ",5,Comerciantes
+1994.72,1994,72,Vendedores ambulantes ,5,Comerciantes
+1994.81,1994,81,Trabajadores en servicios personales en establecimientos ,3,"Empleados, auxiliares o ayudantes"
+1994.82,1994,82,Trabajadores en servicios domésticos ,3,"Empleados, auxiliares o ayudantes"
+1994.83,1994,83,"Trabajadores de fuerzas armadas, protección y vigilancia ",11,Seguridad
+1994.98,1994,98,Insuficientemente especificada ,9,No especificado
+1994.99,1994,99,No especificada,9,No especificado
+1995.2,1995,2,No trabaja ,4,No trabajaba
+1995.11,1995,11,Profesionistas ,8,Profesionista o técnicos
+1995.12,1995,12,Técnicos ,8,Profesionista o técnicos
+1995.13,1995,13,Trabajadores de la educación ,8,Profesionista o técnicos
+1995.14,1995,14,"Trabajadores del arte, deportes y espectáculos ",3,"Empleados, auxiliares o ayudantes"
+1995.21,1995,21,Funcionarios y directivos ,7,Directores o coordinadores
+1995.41,1995,41,"Trabajadores en actividades agrícolas, ganaderas, caza y pesca ",1,Agricultor
+1995.51,1995,51,Personal de control en el proceso de producción industrial ,3,"Empleados, auxiliares o ayudantes"
+1995.52,1995,52,Trabajadores en la industria de la transformación ,3,"Empleados, auxiliares o ayudantes"
+1995.53,1995,53,Operadores de maquinaria fija ,6,Operadores o conductores
+1995.54,1995,54,Ayudantes en el proceso de producción industrial y artesanal ,3,"Empleados, auxiliares o ayudantes"
+1995.55,1995,55,Conductores de maquinaria móvil y medios de transporte ,6,Operadores o conductores
+1995.61,1995,61,Trabajadores administrativos de nivel intermedio ,3,"Empleados, auxiliares o ayudantes"
+1995.62,1995,62,Trabajadores administrativos de nivel inferior ,3,"Empleados, auxiliares o ayudantes"
+1995.71,1995,71,"Comerciantes, empleados de comercio y agentes de ventas ",5,Comerciantes
+1995.72,1995,72,Vendedores ambulantes ,5,Comerciantes
+1995.81,1995,81,Trabajadores en servicios personales en establecimientos ,3,"Empleados, auxiliares o ayudantes"
+1995.82,1995,82,Trabajadores en servicios domésticos ,3,"Empleados, auxiliares o ayudantes"
+1995.83,1995,83,"Trabajadores de fuerzas armadas, protección y vigilancia ",11,Seguridad
+1995.98,1995,98,Insuficientemente especificada ,9,No especificado
+1995.99,1995,99,No especificada,9,No especificado
+1996.2,1996,2,No trabaja ,4,No trabajaba
+1996.11,1996,11,Profesionistas ,8,Profesionista o técnicos
+1996.12,1996,12,Técnicos ,8,Profesionista o técnicos
+1996.13,1996,13,Trabajadores de la educación ,8,Profesionista o técnicos
+1996.14,1996,14,"Trabajadores del arte, deportes y espectáculos ",3,"Empleados, auxiliares o ayudantes"
+1996.21,1996,21,Funcionarios y directivos ,7,Directores o coordinadores
+1996.41,1996,41,"Trabajadores en actividades agrícolas, ganaderas, caza y pesca ",1,Agricultor
+1996.51,1996,51,Personal de control en el proceso de producción industrial ,3,"Empleados, auxiliares o ayudantes"
+1996.52,1996,52,Trabajadores en la industria de la transformación ,3,"Empleados, auxiliares o ayudantes"
+1996.53,1996,53,Operadores de maquinaria fija ,6,Operadores o conductores
+1996.54,1996,54,Ayudantes en el proceso de producción industrial y artesanal ,3,"Empleados, auxiliares o ayudantes"
+1996.55,1996,55,Conductores de maquinaria móvil y medios de transporte ,6,Operadores o conductores
+1996.61,1996,61,Trabajadores administrativos de nivel intermedio ,3,"Empleados, auxiliares o ayudantes"
+1996.62,1996,62,Trabajadores administrativos de nivel inferior ,3,"Empleados, auxiliares o ayudantes"
+1996.71,1996,71,"Comerciantes, empleados de comercio y agentes de ventas ",5,Comerciantes
+1996.72,1996,72,Vendedores ambulantes ,5,Comerciantes
+1996.81,1996,81,Trabajadores en servicios personales en establecimientos ,3,"Empleados, auxiliares o ayudantes"
+1996.82,1996,82,Trabajadores en servicios domésticos ,3,"Empleados, auxiliares o ayudantes"
+1996.83,1996,83,"Trabajadores de fuerzas armadas, protección y vigilancia ",11,Seguridad
+1996.98,1996,98,Insuficientemente especificada ,9,No especificado
+1996.99,1996,99,No especificada,9,No especificado
+1997.2,1997,2,No trabaja ,4,No trabajaba
+1997.11,1997,11,Profesionistas ,8,Profesionista o técnicos
+1997.12,1997,12,Técnicos ,8,Profesionista o técnicos
+1997.13,1997,13,Trabajadores de la educación ,8,Profesionista o técnicos
+1997.14,1997,14,"Trabajadores del arte, deportes y espectáculos ",3,"Empleados, auxiliares o ayudantes"
+1997.21,1997,21,Funcionarios y directivos ,7,Directores o coordinadores
+1997.41,1997,41,"Trabajadores en actividades agrícolas, ganaderas, caza y pesca ",1,Agricultor
+1997.51,1997,51,Personal de control en el proceso de producción industrial ,3,"Empleados, auxiliares o ayudantes"
+1997.52,1997,52,Trabajadores en la industria de la transformación ,3,"Empleados, auxiliares o ayudantes"
+1997.53,1997,53,Operadores de maquinaria fija ,6,Operadores o conductores
+1997.54,1997,54,Ayudantes en el proceso de producción industrial y artesanal ,3,"Empleados, auxiliares o ayudantes"
+1997.55,1997,55,Conductores de maquinaria móvil y medios de transporte ,6,Operadores o conductores
+1997.61,1997,61,Trabajadores administrativos de nivel intermedio ,3,"Empleados, auxiliares o ayudantes"
+1997.62,1997,62,Trabajadores administrativos de nivel inferior ,3,"Empleados, auxiliares o ayudantes"
+1997.71,1997,71,"Comerciantes, empleados de comercio y agentes de ventas ",5,Comerciantes
+1997.72,1997,72,Vendedores ambulantes ,5,Comerciantes
+1997.81,1997,81,Trabajadores en servicios personales en establecimientos ,3,"Empleados, auxiliares o ayudantes"
+1997.82,1997,82,Trabajadores en servicios domésticos ,3,"Empleados, auxiliares o ayudantes"
+1997.83,1997,83,"Trabajadores de fuerzas armadas, protección y vigilancia ",11,Seguridad
+1997.98,1997,98,Insuficientemente especificada ,9,No especificado
+1997.99,1997,99,No especificada,9,No especificado
+1998.2,1998,2,No trabaja ,4,No trabajaba
+1998.11,1998,11,Profesionistas ,8,Profesionista o técnicos
+1998.12,1998,12,Técnicos ,8,Profesionista o técnicos
+1998.13,1998,13,Trabajadores de la educación ,8,Profesionista o técnicos
+1998.14,1998,14,"Trabajadores del arte, deportes y espectáculos ",3,"Empleados, auxiliares o ayudantes"
+1998.21,1998,21,Funcionarios y directivos ,7,Directores o coordinadores
+1998.41,1998,41,"Trabajadores en actividades agrícolas, ganaderas, caza y pesca ",1,Agricultor
+1998.51,1998,51,Personal de control en el proceso de producción industrial ,3,"Empleados, auxiliares o ayudantes"
+1998.52,1998,52,Trabajadores en la industria de la transformación ,3,"Empleados, auxiliares o ayudantes"
+1998.53,1998,53,Operadores de maquinaria fija ,6,Operadores o conductores
+1998.54,1998,54,Ayudantes en el proceso de producción industrial y artesanal ,3,"Empleados, auxiliares o ayudantes"
+1998.55,1998,55,Conductores de maquinaria móvil y medios de transporte ,6,Operadores o conductores
+1998.61,1998,61,Trabajadores administrativos de nivel intermedio ,3,"Empleados, auxiliares o ayudantes"
+1998.62,1998,62,Trabajadores administrativos de nivel inferior ,3,"Empleados, auxiliares o ayudantes"
+1998.71,1998,71,"Comerciantes, empleados de comercio y agentes de ventas ",5,Comerciantes
+1998.72,1998,72,Vendedores ambulantes ,5,Comerciantes
+1998.81,1998,81,Trabajadores en servicios personales en establecimientos ,3,"Empleados, auxiliares o ayudantes"
+1998.82,1998,82,Trabajadores en servicios domésticos ,3,"Empleados, auxiliares o ayudantes"
+1998.83,1998,83,"Trabajadores de fuerzas armadas, protección y vigilancia ",11,Seguridad
+1998.98,1998,98,Insuficientemente especificada ,9,No especificado
+1998.99,1998,99,No especificada,9,No especificado
+1999.2,1999,2,No trabaja ,4,No trabajaba
+1999.11,1999,11,Profesionistas ,8,Profesionista o técnicos
+1999.12,1999,12,Técnicos ,8,Profesionista o técnicos
+1999.13,1999,13,Trabajadores de la educación ,8,Profesionista o técnicos
+1999.14,1999,14,"Trabajadores del arte, deportes y espectáculos ",3,"Empleados, auxiliares o ayudantes"
+1999.21,1999,21,Funcionarios y directivos ,7,Directores o coordinadores
+1999.41,1999,41,"Trabajadores en actividades agrícolas, ganaderas, caza y pesca ",1,Agricultor
+1999.51,1999,51,Personal de control en el proceso de producción industrial ,3,"Empleados, auxiliares o ayudantes"
+1999.52,1999,52,Trabajadores en la industria de la transformación ,3,"Empleados, auxiliares o ayudantes"
+1999.53,1999,53,Operadores de maquinaria fija ,6,Operadores o conductores
+1999.54,1999,54,Ayudantes en el proceso de producción industrial y artesanal ,3,"Empleados, auxiliares o ayudantes"
+1999.55,1999,55,Conductores de maquinaria móvil y medios de transporte ,6,Operadores o conductores
+1999.61,1999,61,Trabajadores administrativos de nivel intermedio ,3,"Empleados, auxiliares o ayudantes"
+1999.62,1999,62,Trabajadores administrativos de nivel inferior ,3,"Empleados, auxiliares o ayudantes"
+1999.71,1999,71,"Comerciantes, empleados de comercio y agentes de ventas ",5,Comerciantes
+1999.72,1999,72,Vendedores ambulantes ,5,Comerciantes
+1999.81,1999,81,Trabajadores en servicios personales en establecimientos ,3,"Empleados, auxiliares o ayudantes"
+1999.82,1999,82,Trabajadores en servicios domésticos ,3,"Empleados, auxiliares o ayudantes"
+1999.83,1999,83,"Trabajadores de fuerzas armadas, protección y vigilancia ",11,Seguridad
+1999.98,1999,98,Insuficientemente especificada ,9,No especificado
+1999.99,1999,99,No especificada,9,No especificado
+2000.2,2000,2,No trabaja ,4,No trabajaba
+2000.11,2000,11,Profesionistas ,8,Profesionista o técnicos
+2000.12,2000,12,Técnicos ,8,Profesionista o técnicos
+2000.13,2000,13,Trabajadores de la educación ,8,Profesionista o técnicos
+2000.14,2000,14,"Trabajadores del arte, deportes y espectáculos ",3,"Empleados, auxiliares o ayudantes"
+2000.21,2000,21,Funcionarios y directivos ,7,Directores o coordinadores
+2000.41,2000,41,"Trabajadores en actividades agrícolas, ganaderas, caza y pesca ",1,Agricultor
+2000.51,2000,51,Personal de control en el proceso de producción industrial ,3,"Empleados, auxiliares o ayudantes"
+2000.52,2000,52,Trabajadores en la industria de la transformación ,3,"Empleados, auxiliares o ayudantes"
+2000.53,2000,53,Operadores de maquinaria fija ,6,Operadores o conductores
+2000.54,2000,54,Ayudantes en el proceso de producción industrial y artesanal ,3,"Empleados, auxiliares o ayudantes"
+2000.55,2000,55,Conductores de maquinaria móvil y medios de transporte ,6,Operadores o conductores
+2000.61,2000,61,Trabajadores administrativos de nivel intermedio ,3,"Empleados, auxiliares o ayudantes"
+2000.62,2000,62,Trabajadores administrativos de nivel inferior ,3,"Empleados, auxiliares o ayudantes"
+2000.71,2000,71,"Comerciantes, empleados de comercio y agentes de ventas ",5,Comerciantes
+2000.72,2000,72,Vendedores ambulantes ,5,Comerciantes
+2000.81,2000,81,Trabajadores en servicios personales en establecimientos ,3,"Empleados, auxiliares o ayudantes"
+2000.82,2000,82,Trabajadores en servicios domésticos ,3,"Empleados, auxiliares o ayudantes"
+2000.83,2000,83,"Trabajadores de fuerzas armadas, protección y vigilancia ",11,Seguridad
+2000.98,2000,98,Insuficientemente especificada ,9,No especificado
+2000.99,2000,99,No especificada,9,No especificado
+2001.2,2001,2,No trabaja ,4,No trabajaba
+2001.11,2001,11,Profesionistas ,8,Profesionista o técnicos
+2001.12,2001,12,Técnicos ,8,Profesionista o técnicos
+2001.13,2001,13,Trabajadores de la educación ,8,Profesionista o técnicos
+2001.14,2001,14,"Trabajadores del arte, deportes y espectáculos ",3,"Empleados, auxiliares o ayudantes"
+2001.21,2001,21,Funcionarios y directivos ,7,Directores o coordinadores
+2001.41,2001,41,"Trabajadores en actividades agrícolas, ganaderas, caza y pesca ",1,Agricultor
+2001.51,2001,51,Personal de control en el proceso de producción industrial ,3,"Empleados, auxiliares o ayudantes"
+2001.52,2001,52,Trabajadores en la industria de la transformación ,3,"Empleados, auxiliares o ayudantes"
+2001.53,2001,53,Operadores de maquinaria fija ,6,Operadores o conductores
+2001.54,2001,54,Ayudantes en el proceso de producción industrial y artesanal ,3,"Empleados, auxiliares o ayudantes"
+2001.55,2001,55,Conductores de maquinaria móvil y medios de transporte ,6,Operadores o conductores
+2001.61,2001,61,Trabajadores administrativos de nivel intermedio ,3,"Empleados, auxiliares o ayudantes"
+2001.62,2001,62,Trabajadores administrativos de nivel inferior ,3,"Empleados, auxiliares o ayudantes"
+2001.71,2001,71,"Comerciantes, empleados de comercio y agentes de ventas ",5,Comerciantes
+2001.72,2001,72,Vendedores ambulantes ,5,Comerciantes
+2001.81,2001,81,Trabajadores en servicios personales en establecimientos ,3,"Empleados, auxiliares o ayudantes"
+2001.82,2001,82,Trabajadores en servicios domésticos ,3,"Empleados, auxiliares o ayudantes"
+2001.83,2001,83,"Trabajadores de fuerzas armadas, protección y vigilancia ",11,Seguridad
+2001.98,2001,98,Insuficientemente especificada ,9,No especificado
+2001.99,2001,99,No especificada,9,No especificado
+2002.2,2002,2,No trabaja ,4,No trabajaba
+2002.11,2002,11,Profesionistas ,8,Profesionista o técnicos
+2002.12,2002,12,Técnicos ,8,Profesionista o técnicos
+2002.13,2002,13,Trabajadores de la educación ,8,Profesionista o técnicos
+2002.14,2002,14,"Trabajadores del arte, deportes y espectáculos ",3,"Empleados, auxiliares o ayudantes"
+2002.21,2002,21,Funcionarios y directivos ,7,Directores o coordinadores
+2002.41,2002,41,"Trabajadores en actividades agrícolas, ganaderas, caza y pesca ",1,Agricultor
+2002.51,2002,51,Personal de control en el proceso de producción industrial ,3,"Empleados, auxiliares o ayudantes"
+2002.52,2002,52,Trabajadores en la industria de la transformación ,3,"Empleados, auxiliares o ayudantes"
+2002.53,2002,53,Operadores de maquinaria fija ,6,Operadores o conductores
+2002.54,2002,54,Ayudantes en el proceso de producción industrial y artesanal ,3,"Empleados, auxiliares o ayudantes"
+2002.55,2002,55,Conductores de maquinaria móvil y medios de transporte ,6,Operadores o conductores
+2002.61,2002,61,Trabajadores administrativos de nivel intermedio ,3,"Empleados, auxiliares o ayudantes"
+2002.62,2002,62,Trabajadores administrativos de nivel inferior ,3,"Empleados, auxiliares o ayudantes"
+2002.71,2002,71,"Comerciantes, empleados de comercio y agentes de ventas ",5,Comerciantes
+2002.72,2002,72,Vendedores ambulantes ,5,Comerciantes
+2002.81,2002,81,Trabajadores en servicios personales en establecimientos ,3,"Empleados, auxiliares o ayudantes"
+2002.82,2002,82,Trabajadores en servicios domésticos ,3,"Empleados, auxiliares o ayudantes"
+2002.83,2002,83,"Trabajadores de fuerzas armadas, protección y vigilancia ",11,Seguridad
+2002.97,2002,97,No aplica a menores de 12 años ,10,No aplica
+2002.98,2002,98,Insuficientemente especificada ,9,No especificado
+2002.99,2002,99,No especificada,9,No especificado
+2003.2,2003,2,No trabaja ,4,No trabajaba
+2003.11,2003,11,Profesionistas ,8,Profesionista o técnicos
+2003.12,2003,12,Técnicos ,8,Profesionista o técnicos
+2003.13,2003,13,Trabajadores de la educación ,8,Profesionista o técnicos
+2003.14,2003,14,"Trabajadores del arte, deportes y espectáculos ",3,"Empleados, auxiliares o ayudantes"
+2003.21,2003,21,Funcionarios y directivos ,7,Directores o coordinadores
+2003.41,2003,41,"Trabajadores en actividades agrícolas, ganaderas, caza y pesca ",1,Agricultor
+2003.51,2003,51,Personal de control en el proceso de producción industrial ,3,"Empleados, auxiliares o ayudantes"
+2003.52,2003,52,Trabajadores en la industria de la transformación ,3,"Empleados, auxiliares o ayudantes"
+2003.53,2003,53,Operadores de maquinaria fija ,6,Operadores o conductores
+2003.54,2003,54,Ayudantes en el proceso de producción industrial y artesanal ,3,"Empleados, auxiliares o ayudantes"
+2003.55,2003,55,Conductores de maquinaria móvil y medios de transporte ,6,Operadores o conductores
+2003.61,2003,61,Trabajadores administrativos de nivel intermedio ,3,"Empleados, auxiliares o ayudantes"
+2003.62,2003,62,Trabajadores administrativos de nivel inferior ,3,"Empleados, auxiliares o ayudantes"
+2003.71,2003,71,"Comerciantes, empleados de comercio y agentes de ventas ",5,Comerciantes
+2003.72,2003,72,Vendedores ambulantes ,5,Comerciantes
+2003.81,2003,81,Trabajadores en servicios personales en establecimientos ,3,"Empleados, auxiliares o ayudantes"
+2003.82,2003,82,Trabajadores en servicios domésticos ,3,"Empleados, auxiliares o ayudantes"
+2003.83,2003,83,"Trabajadores de fuerzas armadas, protección y vigilancia ",11,Seguridad
+2003.97,2003,97,No aplica a menores de 12 años ,10,No aplica
+2003.98,2003,98,Insuficientemente especificada ,9,No especificado
+2003.99,2003,99,No especificada,9,No especificado
+2004.2,2004,2,No trabaja ,4,No trabajaba
+2004.11,2004,11,Profesionistas ,8,Profesionista o técnicos
+2004.12,2004,12,Técnicos ,8,Profesionista o técnicos
+2004.13,2004,13,Trabajadores de la educación ,8,Profesionista o técnicos
+2004.14,2004,14,"Trabajadores del arte, deportes y espectáculos ",3,"Empleados, auxiliares o ayudantes"
+2004.21,2004,21,Funcionarios y directivos ,7,Directores o coordinadores
+2004.41,2004,41,"Trabajadores en actividades agrícolas, ganaderas, caza y pesca ",1,Agricultor
+2004.51,2004,51,Personal de control en el proceso de producción industrial ,3,"Empleados, auxiliares o ayudantes"
+2004.52,2004,52,Trabajadores en la industria de la transformación ,3,"Empleados, auxiliares o ayudantes"
+2004.53,2004,53,Operadores de maquinaria fija ,6,Operadores o conductores
+2004.54,2004,54,Ayudantes en el proceso de producción industrial y artesanal ,3,"Empleados, auxiliares o ayudantes"
+2004.55,2004,55,Conductores de maquinaria móvil y medios de transporte ,6,Operadores o conductores
+2004.61,2004,61,Trabajadores administrativos de nivel intermedio ,3,"Empleados, auxiliares o ayudantes"
+2004.62,2004,62,Trabajadores administrativos de nivel inferior ,3,"Empleados, auxiliares o ayudantes"
+2004.71,2004,71,"Comerciantes, empleados de comercio y agentes de ventas ",5,Comerciantes
+2004.72,2004,72,Vendedores ambulantes ,5,Comerciantes
+2004.81,2004,81,Trabajadores en servicios personales en establecimientos ,3,"Empleados, auxiliares o ayudantes"
+2004.82,2004,82,Trabajadores en servicios domésticos ,3,"Empleados, auxiliares o ayudantes"
+2004.83,2004,83,"Trabajadores de fuerzas armadas, protección y vigilancia ",11,Seguridad
+2004.97,2004,97,No aplica a menores de 12 años ,10,No aplica
+2004.98,2004,98,Insuficientemente especificada ,9,No especificado
+2004.99,2004,99,No especificada,9,No especificado
+2005.2,2005,2,No trabaja ,4,No trabajaba
+2005.11,2005,11,Profesionistas ,8,Profesionista o técnicos
+2005.12,2005,12,Técnicos ,8,Profesionista o técnicos
+2005.13,2005,13,Trabajadores de la educación ,8,Profesionista o técnicos
+2005.14,2005,14,"Trabajadores del arte, deportes y espectáculos ",3,"Empleados, auxiliares o ayudantes"
+2005.21,2005,21,Funcionarios y directivos ,7,Directores o coordinadores
+2005.41,2005,41,"Trabajadores en actividades agrícolas, ganaderas, caza y pesca ",1,Agricultor
+2005.51,2005,51,Personal de control en el proceso de producción industrial ,3,"Empleados, auxiliares o ayudantes"
+2005.52,2005,52,Trabajadores en la industria de la transformación ,3,"Empleados, auxiliares o ayudantes"
+2005.53,2005,53,Operadores de maquinaria fija ,6,Operadores o conductores
+2005.54,2005,54,Ayudantes en el proceso de producción industrial y artesanal ,3,"Empleados, auxiliares o ayudantes"
+2005.55,2005,55,Conductores de maquinaria móvil y medios de transporte ,6,Operadores o conductores
+2005.61,2005,61,Trabajadores administrativos de nivel intermedio ,3,"Empleados, auxiliares o ayudantes"
+2005.62,2005,62,Trabajadores administrativos de nivel inferior ,3,"Empleados, auxiliares o ayudantes"
+2005.71,2005,71,"Comerciantes, empleados de comercio y agentes de ventas ",5,Comerciantes
+2005.72,2005,72,Vendedores ambulantes ,5,Comerciantes
+2005.81,2005,81,Trabajadores en servicios personales en establecimientos ,3,"Empleados, auxiliares o ayudantes"
+2005.82,2005,82,Trabajadores en servicios domésticos ,3,"Empleados, auxiliares o ayudantes"
+2005.83,2005,83,"Trabajadores de fuerzas armadas, protección y vigilancia ",11,Seguridad
+2005.97,2005,97,No aplica a menores de 12 años ,10,No aplica
+2005.98,2005,98,Insuficientemente especificada ,9,No especificado
+2005.99,2005,99,No especificada,9,No especificado
+2006.2,2006,2,No trabaja ,4,No trabajaba
+2006.11,2006,11,Profesionistas ,8,Profesionista o técnicos
+2006.12,2006,12,Técnicos ,8,Profesionista o técnicos
+2006.13,2006,13,Trabajadores de la educación ,8,Profesionista o técnicos
+2006.14,2006,14,"Trabajadores del arte, deportes y espectáculos ",3,"Empleados, auxiliares o ayudantes"
+2006.21,2006,21,Funcionarios y directivos ,7,Directores o coordinadores
+2006.41,2006,41,"Trabajadores en actividades agrícolas, ganaderas, caza y pesca ",1,Agricultor
+2006.51,2006,51,Personal de control en el proceso de producción industrial ,3,"Empleados, auxiliares o ayudantes"
+2006.52,2006,52,Trabajadores en la industria de la transformación ,3,"Empleados, auxiliares o ayudantes"
+2006.53,2006,53,Operadores de maquinaria fija ,6,Operadores o conductores
+2006.54,2006,54,Ayudantes en el proceso de producción industrial y artesanal ,3,"Empleados, auxiliares o ayudantes"
+2006.55,2006,55,Conductores de maquinaria móvil y medios de transporte ,6,Operadores o conductores
+2006.61,2006,61,Trabajadores administrativos de nivel intermedio ,3,"Empleados, auxiliares o ayudantes"
+2006.62,2006,62,Trabajadores administrativos de nivel inferior ,3,"Empleados, auxiliares o ayudantes"
+2006.71,2006,71,"Comerciantes, empleados de comercio y agentes de ventas ",5,Comerciantes
+2006.72,2006,72,Vendedores ambulantes ,5,Comerciantes
+2006.81,2006,81,Trabajadores en servicios personales en establecimientos ,3,"Empleados, auxiliares o ayudantes"
+2006.82,2006,82,Trabajadores en servicios domésticos ,3,"Empleados, auxiliares o ayudantes"
+2006.83,2006,83,"Trabajadores de fuerzas armadas, protección y vigilancia ",11,Seguridad
+2006.97,2006,97,No aplica a menores de 12 años ,10,No aplica
+2006.98,2006,98,Insuficientemente especificada ,9,No especificado
+2006.99,2006,99,No especificada,9,No especificado
+2007.2,2007,2,No trabaja ,4,No trabajaba
+2007.11,2007,11,Profesionistas ,8,Profesionista o técnicos
+2007.12,2007,12,Técnicos ,8,Profesionista o técnicos
+2007.13,2007,13,Trabajadores de la educación ,8,Profesionista o técnicos
+2007.14,2007,14,"Trabajadores del arte, deportes y espectáculos ",3,"Empleados, auxiliares o ayudantes"
+2007.21,2007,21,Funcionarios y directivos ,7,Directores o coordinadores
+2007.41,2007,41,"Trabajadores en actividades agrícolas, ganaderas, caza y pesca ",1,Agricultor
+2007.51,2007,51,Personal de control en el proceso de producción industrial ,3,"Empleados, auxiliares o ayudantes"
+2007.52,2007,52,Trabajadores en la industria de la transformación ,3,"Empleados, auxiliares o ayudantes"
+2007.53,2007,53,Operadores de maquinaria fija ,6,Operadores o conductores
+2007.54,2007,54,Ayudantes en el proceso de producción industrial y artesanal ,3,"Empleados, auxiliares o ayudantes"
+2007.55,2007,55,Conductores de maquinaria móvil y medios de transporte ,6,Operadores o conductores
+2007.61,2007,61,Trabajadores administrativos de nivel intermedio ,3,"Empleados, auxiliares o ayudantes"
+2007.62,2007,62,Trabajadores administrativos de nivel inferior ,3,"Empleados, auxiliares o ayudantes"
+2007.71,2007,71,"Comerciantes, empleados de comercio y agentes de ventas ",5,Comerciantes
+2007.72,2007,72,Vendedores ambulantes ,5,Comerciantes
+2007.81,2007,81,Trabajadores en servicios personales en establecimientos ,3,"Empleados, auxiliares o ayudantes"
+2007.82,2007,82,Trabajadores en servicios domésticos ,3,"Empleados, auxiliares o ayudantes"
+2007.83,2007,83,"Trabajadores de fuerzas armadas, protección y vigilancia ",11,Seguridad
+2007.97,2007,97,No aplica a menores de 12 años ,10,No aplica
+2007.98,2007,98,Insuficientemente especificada ,9,No especificado
+2007.99,2007,99,No especificada,9,No especificado
+2008.2,2008,2,No trabaja ,4,No trabajaba
+2008.11,2008,11,Profesionistas ,8,Profesionista o técnicos
+2008.12,2008,12,Técnicos ,8,Profesionista o técnicos
+2008.13,2008,13,Trabajadores de la educación ,8,Profesionista o técnicos
+2008.14,2008,14,"Trabajadores del arte, deportes y espectáculos ",3,"Empleados, auxiliares o ayudantes"
+2008.21,2008,21,Funcionarios y directivos ,7,Directores o coordinadores
+2008.41,2008,41,"Trabajadores en actividades agrícolas, ganaderas, caza y pesca ",1,Agricultor
+2008.51,2008,51,Personal de control en el proceso de producción industrial ,3,"Empleados, auxiliares o ayudantes"
+2008.52,2008,52,Trabajadores en la industria de la transformación ,3,"Empleados, auxiliares o ayudantes"
+2008.53,2008,53,Operadores de maquinaria fija ,6,Operadores o conductores
+2008.54,2008,54,Ayudantes en el proceso de producción industrial y artesanal ,3,"Empleados, auxiliares o ayudantes"
+2008.55,2008,55,Conductores de maquinaria móvil y medios de transporte ,6,Operadores o conductores
+2008.61,2008,61,Trabajadores administrativos de nivel intermedio ,3,"Empleados, auxiliares o ayudantes"
+2008.62,2008,62,Trabajadores administrativos de nivel inferior ,3,"Empleados, auxiliares o ayudantes"
+2008.71,2008,71,"Comerciantes, empleados de comercio y agentes de ventas ",5,Comerciantes
+2008.72,2008,72,Vendedores ambulantes ,5,Comerciantes
+2008.81,2008,81,Trabajadores en servicios personales en establecimientos ,3,"Empleados, auxiliares o ayudantes"
+2008.82,2008,82,Trabajadores en servicios domésticos ,3,"Empleados, auxiliares o ayudantes"
+2008.83,2008,83,"Trabajadores de fuerzas armadas, protección y vigilancia ",11,Seguridad
+2008.97,2008,97,No aplica a menores de 12 años ,10,No aplica
+2008.98,2008,98,Insuficientemente especificada ,9,No especificado
+2008.99,2008,99,No especificada,9,No especificado
+2009.2,2009,2,No trabaja ,4,No trabajaba
+2009.11,2009,11,Profesionistas ,8,Profesionista o técnicos
+2009.12,2009,12,Técnicos ,8,Profesionista o técnicos
+2009.13,2009,13,Trabajadores de la educación ,8,Profesionista o técnicos
+2009.14,2009,14,"Trabajadores del arte, deportes y espectáculos ",3,"Empleados, auxiliares o ayudantes"
+2009.21,2009,21,Funcionarios y directivos ,7,Directores o coordinadores
+2009.41,2009,41,"Trabajadores en actividades agrícolas, ganaderas, caza y pesca ",1,Agricultor
+2009.51,2009,51,Personal de control en el proceso de producción industrial ,3,"Empleados, auxiliares o ayudantes"
+2009.52,2009,52,Trabajadores en la industria de la transformación ,3,"Empleados, auxiliares o ayudantes"
+2009.53,2009,53,Operadores de maquinaria fija ,6,Operadores o conductores
+2009.54,2009,54,Ayudantes en el proceso de producción industrial y artesanal ,3,"Empleados, auxiliares o ayudantes"
+2009.55,2009,55,Conductores de maquinaria móvil y medios de transporte ,6,Operadores o conductores
+2009.61,2009,61,Trabajadores administrativos de nivel intermedio ,3,"Empleados, auxiliares o ayudantes"
+2009.62,2009,62,Trabajadores administrativos de nivel inferior ,3,"Empleados, auxiliares o ayudantes"
+2009.71,2009,71,"Comerciantes, empleados de comercio y agentes de ventas ",5,Comerciantes
+2009.72,2009,72,Vendedores ambulantes ,5,Comerciantes
+2009.81,2009,81,Trabajadores en servicios personales en establecimientos ,3,"Empleados, auxiliares o ayudantes"
+2009.82,2009,82,Trabajadores en servicios domésticos ,3,"Empleados, auxiliares o ayudantes"
+2009.83,2009,83,"Trabajadores de fuerzas armadas, protección y vigilancia ",11,Seguridad
+2009.97,2009,97,No aplica a menores de 12 años ,10,No aplica
+2009.98,2009,98,Insuficientemente especificada ,9,No especificado
+2009.99,2009,99,No especificada,9,No especificado
+2010.2,2010,2,No trabaja ,4,No trabajaba
+2010.11,2010,11,Profesionistas ,8,Profesionista o técnicos
+2010.12,2010,12,Técnicos ,8,Profesionista o técnicos
+2010.13,2010,13,Trabajadores de la educación ,8,Profesionista o técnicos
+2010.14,2010,14,"Trabajadores del arte, deportes y espectáculos ",3,"Empleados, auxiliares o ayudantes"
+2010.21,2010,21,Funcionarios y directivos ,7,Directores o coordinadores
+2010.41,2010,41,"Trabajadores en actividades agrícolas, ganaderas, caza y pesca ",1,Agricultor
+2010.51,2010,51,Personal de control en el proceso de producción industrial ,3,"Empleados, auxiliares o ayudantes"
+2010.52,2010,52,Trabajadores en la industria de la transformación ,3,"Empleados, auxiliares o ayudantes"
+2010.53,2010,53,Operadores de maquinaria fija ,6,Operadores o conductores
+2010.54,2010,54,Ayudantes en el proceso de producción industrial y artesanal ,3,"Empleados, auxiliares o ayudantes"
+2010.55,2010,55,Conductores de maquinaria móvil y medios de transporte ,6,Operadores o conductores
+2010.61,2010,61,Trabajadores administrativos de nivel intermedio ,3,"Empleados, auxiliares o ayudantes"
+2010.62,2010,62,Trabajadores administrativos de nivel inferior ,3,"Empleados, auxiliares o ayudantes"
+2010.71,2010,71,"Comerciantes, empleados de comercio y agentes de ventas ",5,Comerciantes
+2010.72,2010,72,Vendedores ambulantes ,5,Comerciantes
+2010.81,2010,81,Trabajadores en servicios personales en establecimientos ,3,"Empleados, auxiliares o ayudantes"
+2010.82,2010,82,Trabajadores en servicios domésticos ,3,"Empleados, auxiliares o ayudantes"
+2010.83,2010,83,"Trabajadores de fuerzas armadas, protección y vigilancia ",11,Seguridad
+2010.97,2010,97,No aplica a menores de 12 años ,10,No aplica
+2010.98,2010,98,Insuficientemente especificada ,9,No especificado
+2010.99,2010,99,No especificada,9,No especificado
+2011.2,2011,2,No trabaja ,4,No trabajaba
+2011.11,2011,11,Profesionistas ,8,Profesionista o técnicos
+2011.12,2011,12,Técnicos ,8,Profesionista o técnicos
+2011.13,2011,13,Trabajadores de la educación ,8,Profesionista o técnicos
+2011.14,2011,14,"Trabajadores del arte, deportes y espectáculos ",3,"Empleados, auxiliares o ayudantes"
+2011.21,2011,21,Funcionarios y directivos ,7,Directores o coordinadores
+2011.41,2011,41,"Trabajadores en actividades agrícolas, ganaderas, caza y pesca ",1,Agricultor
+2011.51,2011,51,Personal de control en el proceso de producción industrial ,3,"Empleados, auxiliares o ayudantes"
+2011.52,2011,52,Trabajadores en la industria de la transformación ,3,"Empleados, auxiliares o ayudantes"
+2011.53,2011,53,Operadores de maquinaria fija ,6,Operadores o conductores
+2011.54,2011,54,Ayudantes en el proceso de producción industrial y artesanal ,3,"Empleados, auxiliares o ayudantes"
+2011.55,2011,55,Conductores de maquinaria móvil y medios de transporte ,6,Operadores o conductores
+2011.61,2011,61,Trabajadores administrativos de nivel intermedio ,3,"Empleados, auxiliares o ayudantes"
+2011.62,2011,62,Trabajadores administrativos de nivel inferior ,3,"Empleados, auxiliares o ayudantes"
+2011.71,2011,71,"Comerciantes, empleados de comercio y agentes de ventas ",5,Comerciantes
+2011.72,2011,72,Vendedores ambulantes ,5,Comerciantes
+2011.81,2011,81,Trabajadores en servicios personales en establecimientos ,3,"Empleados, auxiliares o ayudantes"
+2011.82,2011,82,Trabajadores en servicios domésticos ,3,"Empleados, auxiliares o ayudantes"
+2011.83,2011,83,"Trabajadores de fuerzas armadas, protección y vigilancia ",11,Seguridad
+2011.97,2011,97,No aplica a menores de 12 años ,10,No aplica
+2011.98,2011,98,Insuficientemente especificada ,9,No especificado
+2011.99,2011,99,No especificada,9,No especificado
+2012.2,2012,2,No trabaja ,4,No trabajaba
+2012.11,2012,11,Profesionistas ,8,Profesionista o técnicos
+2012.12,2012,12,Técnicos ,8,Profesionista o técnicos
+2012.13,2012,13,Trabajadores de la educación ,8,Profesionista o técnicos
+2012.14,2012,14,"Trabajadores del arte, deportes y espectáculos ",3,"Empleados, auxiliares o ayudantes"
+2012.21,2012,21,Funcionarios y directivos ,7,Directores o coordinadores
+2012.41,2012,41,"Trabajadores en actividades agrícolas, ganaderas, caza y pesca ",1,Agricultor
+2012.51,2012,51,Personal de control en el proceso de producción industrial ,3,"Empleados, auxiliares o ayudantes"
+2012.52,2012,52,Trabajadores en la industria de la transformación ,3,"Empleados, auxiliares o ayudantes"
+2012.53,2012,53,Operadores de maquinaria fija ,6,Operadores o conductores
+2012.54,2012,54,Ayudantes en el proceso de producción industrial y artesanal ,3,"Empleados, auxiliares o ayudantes"
+2012.55,2012,55,Conductores de maquinaria móvil y medios de transporte ,6,Operadores o conductores
+2012.61,2012,61,Trabajadores administrativos de nivel intermedio ,3,"Empleados, auxiliares o ayudantes"
+2012.62,2012,62,Trabajadores administrativos de nivel inferior ,3,"Empleados, auxiliares o ayudantes"
+2012.71,2012,71,"Comerciantes, empleados de comercio y agentes de ventas ",5,Comerciantes
+2012.72,2012,72,Vendedores ambulantes ,5,Comerciantes
+2012.81,2012,81,Trabajadores en servicios personales en establecimientos ,3,"Empleados, auxiliares o ayudantes"
+2012.82,2012,82,Trabajadores en servicios domésticos ,3,"Empleados, auxiliares o ayudantes"
+2012.83,2012,83,"Trabajadores de fuerzas armadas, protección y vigilancia ",11,Seguridad
+2012.97,2012,97,No aplica a menores de 12 años ,10,No aplica
+2012.98,2012,98,Insuficientemente especificada ,9,No especificado
+2012.99,2012,99,No especificada,9,No especificado
+2013.1,2013,1,"Funcionarios, directores y jefes ",7,Directores o coordinadores
+2013.2,2013,2,Profesionistas y técnicos ,8,Profesionista o técnicos
+2013.3,2013,3,Trabajadores auxiliares en actividades administrativas ,3,"Empleados, auxiliares o ayudantes"
+2013.4,2013,4,"Comerciantes, empleados en ventas y agentes de ventas ",5,Comerciantes
+2013.5,2013,5,Trabajadores en servicios personales y vigilancia ,11,Seguridad
+2013.6,2013,6,"Trabajadores en actividades agrícolas, ganaderas, forestales, caza y pesca ",1,Agricultor
+2013.7,2013,7,Trabajadores artesanales ,2,Artesanos
+2013.8,2013,8,"Operadores de maquinaria industrial, ensambladores, choferes y conductores de transporte ",6,Operadores o conductores
+2013.9,2013,9,Trabajadores en actividades elementales y de apoyo ,3,"Empleados, auxiliares o ayudantes"
+2013.10,2013,10,Busca trabajo ,4,No trabajaba
+2013.11,2013,11,No trabaja ,4,No trabajaba
+2013.97,2013,97,No aplica a menores de 5 años ,10,No aplica
+2013.98,2013,98,Insuficientemente especificada ,9,No especificado
+2013.99,2013,99,No especificada,9,No especificado
+2014.1,2014,1,"Funcionarios, directores y jefes ",7,Directores o coordinadores
+2014.2,2014,2,Profesionistas y técnicos ,8,Profesionista o técnicos
+2014.3,2014,3,Trabajadores auxiliares en actividades administrativas ,3,"Empleados, auxiliares o ayudantes"
+2014.4,2014,4,"Comerciantes, empleados en ventas y agentes de ventas ",5,Comerciantes
+2014.5,2014,5,Trabajadores en servicios personales y vigilancia ,11,Seguridad
+2014.6,2014,6,"Trabajadores en actividades agrícolas, ganaderas, forestales, caza y pesca ",1,Agricultor
+2014.7,2014,7,Trabajadores artesanales ,2,Artesanos
+2014.8,2014,8,"Operadores de maquinaria industrial, ensambladores, choferes y conductores de transporte ",6,Operadores o conductores
+2014.9,2014,9,Trabajadores en actividades elementales y de apoyo ,3,"Empleados, auxiliares o ayudantes"
+2014.10,2014,10,Busca trabajo ,4,No trabajaba
+2014.11,2014,11,No trabaja ,4,No trabajaba
+2014.97,2014,97,No aplica a menores de 5 años ,10,No aplica
+2014.98,2014,98,Insuficientemente especificada ,9,No especificado
+2014.99,2014,99,No especificada,9,No especificado
+2015.1,2015,1,"Funcionarios, directores y jefes ",7,Directores o coordinadores
+2015.2,2015,2,Profesionistas y técnicos ,8,Profesionista o técnicos
+2015.3,2015,3,Trabajadores auxiliares en actividades administrativas ,3,"Empleados, auxiliares o ayudantes"
+2015.4,2015,4,"Comerciantes, empleados en ventas y agentes de ventas ",5,Comerciantes
+2015.5,2015,5,Trabajadores en servicios personales y vigilancia ,11,Seguridad
+2015.6,2015,6,"Trabajadores en actividades agrícolas, ganaderas, forestales, caza y pesca ",1,Agricultor
+2015.7,2015,7,Trabajadores artesanales ,2,Artesanos
+2015.8,2015,8,"Operadores de maquinaria industrial, ensambladores, choferes y conductores de transporte ",6,Operadores o conductores
+2015.9,2015,9,Trabajadores en actividades elementales y de apoyo ,3,"Empleados, auxiliares o ayudantes"
+2015.10,2015,10,Busca trabajo ,4,No trabajaba
+2015.11,2015,11,No trabaja ,4,No trabajaba
+2015.97,2015,97,No aplica a menores de 5 años ,10,No aplica
+2015.98,2015,98,Insuficientemente especificada ,9,No especificado
+2015.99,2015,99,No especificada,9,No especificado
+2016.1,2016,1,"Funcionarios, directores y jefes ",7,Directores o coordinadores
+2016.2,2016,2,Profesionistas y técnicos ,8,Profesionista o técnicos
+2016.3,2016,3,Trabajadores auxiliares en actividades administrativas ,3,"Empleados, auxiliares o ayudantes"
+2016.4,2016,4,"Comerciantes, empleados en ventas y agentes de ventas ",5,Comerciantes
+2016.5,2016,5,Trabajadores en servicios personales y vigilancia ,11,Seguridad
+2016.6,2016,6,"Trabajadores en actividades agrícolas, ganaderas, forestales, caza y pesca ",1,Agricultor
+2016.7,2016,7,Trabajadores artesanales ,2,Artesanos
+2016.8,2016,8,"Operadores de maquinaria industrial, ensambladores, choferes y conductores de transporte ",6,Operadores o conductores
+2016.9,2016,9,Trabajadores en actividades elementales y de apoyo ,3,"Empleados, auxiliares o ayudantes"
+2016.10,2016,10,Busca trabajo ,4,No trabajaba
+2016.11,2016,11,No trabaja ,4,No trabajaba
+2016.97,2016,97,No aplica a menores de 5 años ,10,No aplica
+2016.98,2016,98,Insuficientemente especificada ,9,No especificado
+2016.99,2016,99,No especificada,9,No especificado
+2017.1,2017,1,"Funcionarios, directores y jefes ",7,Directores o coordinadores
+2017.2,2017,2,Profesionistas y técnicos ,8,Profesionista o técnicos
+2017.3,2017,3,Trabajadores auxiliares en actividades administrativas ,3,"Empleados, auxiliares o ayudantes"
+2017.4,2017,4,"Comerciantes, empleados en ventas y agentes de ventas ",5,Comerciantes
+2017.5,2017,5,Trabajadores en servicios personales y vigilancia ,11,Seguridad
+2017.6,2017,6,"Trabajadores en actividades agrícolas, ganaderas, forestales, caza y pesca ",1,Agricultor
+2017.7,2017,7,Trabajadores artesanales ,2,Artesanos
+2017.8,2017,8,"Operadores de maquinaria industrial, ensambladores, choferes y conductores de transporte ",6,Operadores o conductores
+2017.9,2017,9,Trabajadores en actividades elementales y de apoyo ,3,"Empleados, auxiliares o ayudantes"
+2017.10,2017,10,Busca trabajo ,4,No trabajaba
+2017.11,2017,11,No trabaja ,4,No trabajaba
+2017.97,2017,97,No aplica a menores de 5 años ,10,No aplica
+2017.98,2017,98,Insuficientemente especificada ,9,No especificado
+2017.99,2017,99,No especificada,9,No especificado
+2018.1,2018,1,"Funcionarios, directores y jefes ",7,Directores o coordinadores
+2018.2,2018,2,Profesionistas y técnicos ,8,Profesionista o técnicos
+2018.3,2018,3,Trabajadores auxiliares en actividades administrativas ,3,"Empleados, auxiliares o ayudantes"
+2018.4,2018,4,"Comerciantes, empleados en ventas y agentes de ventas ",5,Comerciantes
+2018.5,2018,5,Trabajadores en servicios personales y vigilancia ,11,Seguridad
+2018.6,2018,6,"Trabajadores en actividades agrícolas, ganaderas, forestales, caza y pesca ",1,Agricultor
+2018.7,2018,7,Trabajadores artesanales ,2,Artesanos
+2018.8,2018,8,"Operadores de maquinaria industrial, ensambladores, choferes y conductores de transporte ",6,Operadores o conductores
+2018.9,2018,9,Trabajadores en actividades elementales y de apoyo ,3,"Empleados, auxiliares o ayudantes"
+2018.10,2018,10,Busca trabajo ,4,No trabajaba
+2018.11,2018,11,No trabaja ,4,No trabajaba
+2018.97,2018,97,No aplica a menores de 5 años ,10,No aplica
+2018.98,2018,98,Insuficientemente especificada ,9,No especificado
+2018.99,2018,99,No especificada,9,No especificado
+2019.1,2019,1,"Funcionarios, directores y jefes ",7,Directores o coordinadores
+2019.2,2019,2,Profesionistas y técnicos ,8,Profesionista o técnicos
+2019.3,2019,3,Trabajadores auxiliares en actividades administrativas ,3,"Empleados, auxiliares o ayudantes"
+2019.4,2019,4,"Comerciantes, empleados en ventas y agentes de ventas ",5,Comerciantes
+2019.5,2019,5,Trabajadores en servicios personales y vigilancia ,11,Seguridad
+2019.6,2019,6,"Trabajadores en actividades agrícolas, ganaderas, forestales, caza y pesca ",1,Agricultor
+2019.7,2019,7,Trabajadores artesanales ,2,Artesanos
+2019.8,2019,8,"Operadores de maquinaria industrial, ensambladores, choferes y conductores de transporte ",6,Operadores o conductores
+2019.9,2019,9,Trabajadores en actividades elementales y de apoyo ,3,"Empleados, auxiliares o ayudantes"
+2019.10,2019,10,Busca trabajo ,4,No trabajaba
+2019.11,2019,11,No trabaja ,4,No trabajaba
+2019.97,2019,97,No aplica a menores de 5 años ,10,No aplica
+2019.98,2019,98,Insuficientemente especificada ,9,No especificado
+2019.99,2019,99,No especificada,9,No especificado
+2020.1,2020,1,"Funcionarios, directores y jefes ",7,Directores o coordinadores
+2020.2,2020,2,Profesionistas y técnicos ,8,Profesionista o técnicos
+2020.3,2020,3,Trabajadores auxiliares en actividades administrativas ,3,"Empleados, auxiliares o ayudantes"
+2020.4,2020,4,"Comerciantes, empleados en ventas y agentes de ventas ",5,Comerciantes
+2020.5,2020,5,Trabajadores en servicios personales y de vigilancia ,11,Seguridad
+2020.6,2020,6,"Trabajadores en actividades agrícolas, ganaderas, forestales, caza y pesca ",1,Agricultor
+2020.7,2020,7,"Trabajadores artesanales, en la construcción y otros oficios ",2,Artesanos
+2020.8,2020,8,"Operadores de maquinaria industrial, ensambladores, choferes y conductores de transporte ",6,Operadores o conductores
+2020.9,2020,9,Trabajadores en actividades elementales y de apoyo ,3,"Empleados, auxiliares o ayudantes"
+2020.10,2020,10,Busca trabajo ,4,No trabajaba
+2020.11,2020,11,No trabaja ,4,No trabajaba
+2020.97,2020,97,No aplica a menores de 5 años ,10,No aplica
+2020.98,2020,98,Insuficientemente especificada ,9,No especificado
+2020.99,2020,99,No especificada,9,No especificado
+2021.1,2021,1,"Funcionarios, directores y jefes ",7,Directores o coordinadores
+2021.2,2021,2,Profesionistas y técnicos ,8,Profesionista o técnicos
+2021.3,2021,3,Trabajadores auxiliares en actividades administrativas ,3,"Empleados, auxiliares o ayudantes"
+2021.4,2021,4,"Comerciantes, empleados en ventas y agentes de ventas ",5,Comerciantes
+2021.5,2021,5,Trabajadores en servicios personales y de vigilancia ,11,Seguridad
+2021.6,2021,6,"Trabajadores en actividades agrícolas, ganaderas, forestales, caza y pesca ",1,Agricultor
+2021.7,2021,7,"Trabajadores artesanales, en la construcción y otros oficios ",2,Artesanos
+2021.8,2021,8,"Operadores de maquinaria industrial, ensambladores, choferes y conductores de transporte ",6,Operadores o conductores
+2021.9,2021,9,Trabajadores en actividades elementales y de apoyo ,3,"Empleados, auxiliares o ayudantes"
+2021.10,2021,10,Busca trabajo ,4,No trabajaba
+2021.11,2021,11,No trabaja ,4,No trabajaba
+2021.97,2021,97,No aplica a menores de 5 años ,10,No aplica
+2021.98,2021,98,Insuficientemente especificada ,9,No especificado
+2021.99,2021,99,No especificada,9,No especificado
+2022.011,2022,011,"Funcionarios y altas autoridades de los sectores público, privado y social",7,Directores o coordinadores
+2022.012,2022,012,"Directores y gerentes en servicios financieros, legales, administrativos y sociales",7,Directores o coordinadores
+2022.013,2022,013,"Directores y gerentes en producción, tecnología y transporte",7,Directores o coordinadores
+2022.014,2022,014,"Directores y gerentes de ventas, restaurantes, hoteles y otros establecimientos",7,Directores o coordinadores
+2022.015,2022,015,"Coordinadores y jefes de área en servicios financieros, administrativos y sociales",7,Directores o coordinadores
+2022.016,2022,016,Coordinadores y jefes de área en producción y tecnología,7,Directores o coordinadores
+2022.017,2022,017,"Coordinadores y jefes de área de ventas, restaurantes, hoteles y otros establecimientos",7,Directores o coordinadores
+2022.019,2022,019,"Otros directores, funcionarios, gerentes, coordinadores y jefes de área, no clasificados anteriormente",7,Directores o coordinadores
+2022.021,2022,021,"Profesionistas en ciencias económico-administrativas, ciencias sociales, humanistas y en artes",8,Profesionista o técnicos
+2022.022,2022,022,"Investigadores y profesionistas en ciencias exactas, biológicas, ingeniería, informática y en telecomunicaciones",8,Profesionista o técnicos
+2022.023,2022,023,Profesores y especialistas en docencia,8,Profesionista o técnicos
+2022.024,2022,024,"Médicos, enfermeras y otros especialistas en salud",8,Profesionista o técnicos
+2022.025,2022,025,"Auxiliares y técnicos en ciencias económico-administrativas, ciencias sociales, humanistas y en artes",3,"Empleados, auxiliares o ayudantes"
+2022.026,2022,026,"Auxiliares y técnicos en ciencias exactas, biológicas, ingeniería, informática y en telecomunicaciones",3,"Empleados, auxiliares o ayudantes"
+2022.027,2022,027,"Auxiliares y técnicos en educación, instructores y capacitadores",3,"Empleados, auxiliares o ayudantes"
+2022.028,2022,028,"Enfermeras, técnicos en medicina y trabajadores de apoyo en salud",8,Profesionista o técnicos
+2022.029,2022,029,Otros profesionistas y técnicos no clasificados anteriormente,8,Profesionista o técnicos
+2022.031,2022,031,"Supervisores de personal de apoyo administrativo, secretarias, capturistas, cajeros y trabajadores de control de archivo y transporte",7,Directores o coordinadores
+2022.032,2022,032,Supervisores y trabajadores que brindan y manejan información,7,Directores o coordinadores
+2022.039,2022,039,"Otros trabajadores auxiliares en actividades administrativas, no clasificados anteriormente",3,"Empleados, auxiliares o ayudantes"
+2022.041,2022,041,Comerciantes en establecimientos,5,Comerciantes
+2022.042,2022,042,Empleados de ventas en establecimientos,3,"Empleados, auxiliares o ayudantes"
+2022.043,2022,043,Trabajadores en servicios de alquiler,3,"Empleados, auxiliares o ayudantes"
+2022.049,2022,049,"Otros comerciantes, empleados en ventas y agentes de ventas en establecimientos, no clasificados anteriormente",5,Comerciantes
+2022.051,2022,051,"Trabajadores en la preparación y servicio de alimentos y bebidas, así como en servicios de esparcimiento y de hotelería",3,"Empleados, auxiliares o ayudantes"
+2022.052,2022,052,Trabajadores en cuidados personales y del hogar,3,"Empleados, auxiliares o ayudantes"
+2022.053,2022,053,Trabajadores en servicios de protección y vigilancia,11,Seguridad
+2022.054,2022,054,"Trabajadores de la Armada, Ejército y Fuerza Aérea",11,Seguridad
+2022.061,2022,061,Trabajadores en actividades agrícolas y ganaderas,1,Agricultor
+2022.062,2022,062,"Trabajadores en actividades pesqueras, forestales, caza y similares",1,Agricultor
+2022.063,2022,063,Operadores de maquinaria agropecuaria y forestal,6,Operadores o conductores
+2022.069,2022,069,"Otros trabajadores en actividades agrícolas, ganaderas, forestales, caza y pesca, no clasificados anteriormente",1,Agricultor
+2022.071,2022,071,Trabajadores en la extracción y la edificación de construcciones,3,"Empleados, auxiliares o ayudantes"
+2022.072,2022,072,Artesanos y trabajadores en el tratamiento y elaboración de productos de metal,2,Artesanos
+2022.073,2022,073,"Artesanos y trabajadores en la elaboración de productos de madera, papel, textiles y de cuero y piel",2,Artesanos
+2022.074,2022,074,"Artesanos y trabajadores en la elaboración de productos de hule, caucho, plásticos y de sustancias químicas",2,Artesanos
+2022.075,2022,075,"Trabajadores en la elaboración y procesamiento de alimentos, bebidas y productos de tabaco",3,"Empleados, auxiliares o ayudantes"
+2022.076,2022,076,"Artesanos y trabajadores en la elaboración de productos de cerámica, vidrio, azulejo y similares",2,Artesanos
+2022.079,2022,079,Otros trabajadores artesanales no clasificados anteriormente,2,Artesanos
+2022.081,2022,081,Operadores de instalaciones y maquinaria industrial,6,Operadores o conductores
+2022.082,2022,082,"Ensambladores y montadores de herramientas, maquinaria, productos metálicos y electrónicos",6,Operadores o conductores
+2022.083,2022,083,Conductores de transporte y de maquinaria móvil,6,Operadores o conductores
+2022.089,2022,089,"Otros operadores de maquinaria industrial, ensambladores y conductores de transporte, no clasificados anteriormente",6,Operadores o conductores
+2022.091,2022,091,"Trabajadores de apoyo en actividades agropecuarias, forestales, pesca y caza",1,Agricultor
+2022.092,2022,092,"Trabajadores de apoyo en la minería, construcción e industria",3,"Empleados, auxiliares o ayudantes"
+2022.093,2022,093,"Ayudantes de conductores de transporte, conductores de transporte de tracción humana y animal y cargadores",3,"Empleados, auxiliares o ayudantes"
+2022.094,2022,094,Ayudantes en la preparación de alimentos,3,"Empleados, auxiliares o ayudantes"
+2022.095,2022,095,Vendedores ambulantes,5,Comerciantes
+2022.096,2022,096,"Trabajadores domésticos, de limpieza, planchadores y otros trabajadores de limpieza",3,"Empleados, auxiliares o ayudantes"
+2022.097,2022,097,"Trabajadores de paquetería, de apoyo para espectáculos, mensajeros y repartidores de mercancías",3,"Empleados, auxiliares o ayudantes"
+2022.098,2022,098,"Otros trabajadores en actividades elementales y de apoyo, no clasificados anteriormente",3,"Empleados, auxiliares o ayudantes"
+2022.099,2022,099,Ocupaciones no especificadas,9,No especificado
+2022.100,2022,100,Busca trabajo,4,No trabajaba
+2022.110,2022,110,No trabaja,4,No trabajaba
+2022.997,2022,997,No aplica a menores de 5 años,10,No aplica
+2022.998,2022,998,Ocupaciones insuficientemente especificadas,9,No especificado
+2022.999,2022,999,No especificada,9,No especificado
+2023.011,2023,011,"Funcionarios y altas autoridades de los sectores público, privado y social",7,Directores o coordinadores
+2023.012,2023,012,"Directores y gerentes en servicios financieros, legales, administrativos y sociales",7,Directores o coordinadores
+2023.013,2023,013,"Directores y gerentes en producción, tecnología y transporte",7,Directores o coordinadores
+2023.014,2023,014,"Directores y gerentes de ventas, restaurantes, hoteles y otros establecimientos",7,Directores o coordinadores
+2023.015,2023,015,"Coordinadores y jefes de área en servicios financieros, administrativos y sociales",7,Directores o coordinadores
+2023.016,2023,016,Coordinadores y jefes de área en producción y tecnología,7,Directores o coordinadores
+2023.017,2023,017,"Coordinadores y jefes de área de ventas, restaurantes, hoteles y otros establecimientos",7,Directores o coordinadores
+2023.019,2023,019,"Otros directores, funcionarios, gerentes, coordinadores y jefes de área, no clasificados anteriormente",7,Directores o coordinadores
+2023.021,2023,021,"Profesionistas en ciencias económico-administrativas, ciencias sociales, humanistas y en artes",8,Profesionista o técnicos
+2023.022,2023,022,"Investigadores y profesionistas en ciencias exactas, biológicas, ingeniería, informática y en telecomunicaciones",8,Profesionista o técnicos
+2023.023,2023,023,Profesores y especialistas en docencia,8,Profesionista o técnicos
+2023.024,2023,024,"Médicos, enfermeras y otros especialistas en salud",8,Profesionista o técnicos
+2023.025,2023,025,"Auxiliares y técnicos en ciencias económico-administrativas, ciencias sociales, humanistas y en artes",3,"Empleados, auxiliares o ayudantes"
+2023.026,2023,026,"Auxiliares y técnicos en ciencias exactas, biológicas, ingeniería, informática y en telecomunicaciones",3,"Empleados, auxiliares o ayudantes"
+2023.027,2023,027,"Auxiliares y técnicos en educación, instructores y capacitadores",3,"Empleados, auxiliares o ayudantes"
+2023.028,2023,028,"Enfermeras, técnicos en medicina y trabajadores de apoyo en salud",8,Profesionista o técnicos
+2023.029,2023,029,Otros profesionistas y técnicos no clasificados anteriormente,8,Profesionista o técnicos
+2023.031,2023,031,"Supervisores de personal de apoyo administrativo, secretarias, capturistas, cajeros y trabajadores de control de archivo y transporte",7,Directores o coordinadores
+2023.032,2023,032,Supervisores y trabajadores que brindan y manejan información,7,Directores o coordinadores
+2023.039,2023,039,"Otros trabajadores auxiliares en actividades administrativas, no clasificados anteriormente",3,"Empleados, auxiliares o ayudantes"
+2023.041,2023,041,Comerciantes en establecimientos,5,Comerciantes
+2023.042,2023,042,Empleados de ventas en establecimientos,3,"Empleados, auxiliares o ayudantes"
+2023.043,2023,043,Trabajadores en servicios de alquiler,3,"Empleados, auxiliares o ayudantes"
+2023.049,2023,049,"Otros comerciantes, empleados en ventas y agentes de ventas en establecimientos, no clasificados anteriormente",5,Comerciantes
+2023.051,2023,051,"Trabajadores en la preparación y servicio de alimentos y bebidas, así como en servicios de esparcimiento y de hotelería",3,"Empleados, auxiliares o ayudantes"
+2023.052,2023,052,Trabajadores en cuidados personales y del hogar,3,"Empleados, auxiliares o ayudantes"
+2023.053,2023,053,Trabajadores en servicios de protección y vigilancia,11,Seguridad
+2023.054,2023,054,"Trabajadores de la Armada, Ejército y Fuerza Aérea",11,Seguridad
+2023.061,2023,061,Trabajadores en actividades agrícolas y ganaderas,1,Agricultor
+2023.062,2023,062,"Trabajadores en actividades pesqueras, forestales, caza y similares",1,Agricultor
+2023.063,2023,063,Operadores de maquinaria agropecuaria y forestal,6,Operadores o conductores
+2023.069,2023,069,"Otros trabajadores en actividades agrícolas, ganaderas, forestales, caza y pesca, no clasificados anteriormente",1,Agricultor
+2023.071,2023,071,Trabajadores en la extracción y la edificación de construcciones,3,"Empleados, auxiliares o ayudantes"
+2023.072,2023,072,Artesanos y trabajadores en el tratamiento y elaboración de productos de metal,2,Artesanos
+2023.073,2023,073,"Artesanos y trabajadores en la elaboración de productos de madera, papel, textiles y de cuero y piel",2,Artesanos
+2023.074,2023,074,"Artesanos y trabajadores en la elaboración de productos de hule, caucho, plásticos y de sustancias químicas",2,Artesanos
+2023.075,2023,075,"Trabajadores en la elaboración y procesamiento de alimentos, bebidas y productos de tabaco",3,"Empleados, auxiliares o ayudantes"
+2023.076,2023,076,"Artesanos y trabajadores en la elaboración de productos de cerámica, vidrio, azulejo y similares",2,Artesanos
+2023.079,2023,079,Otros trabajadores artesanales no clasificados anteriormente,2,Artesanos
+2023.081,2023,081,Operadores de instalaciones y maquinaria industrial,6,Operadores o conductores
+2023.082,2023,082,"Ensambladores y montadores de herramientas, maquinaria, productos metálicos y electrónicos",6,Operadores o conductores
+2023.083,2023,083,Conductores de transporte y de maquinaria móvil,6,Operadores o conductores
+2023.089,2023,089,"Otros operadores de maquinaria industrial, ensambladores y conductores de transporte, no clasificados anteriormente",6,Operadores o conductores
+2023.091,2023,091,"Trabajadores de apoyo en actividades agropecuarias, forestales, pesca y caza",1,Agricultor
+2023.092,2023,092,"Trabajadores de apoyo en la minería, construcción e industria",3,"Empleados, auxiliares o ayudantes"
+2023.093,2023,093,"Ayudantes de conductores de transporte, conductores de transporte de tracción humana y animal y cargadores",3,"Empleados, auxiliares o ayudantes"
+2023.094,2023,094,Ayudantes en la preparación de alimentos,3,"Empleados, auxiliares o ayudantes"
+2023.095,2023,095,Vendedores ambulantes,5,Comerciantes
+2023.096,2023,096,"Trabajadores domésticos, de limpieza, planchadores y otros trabajadores de limpieza",3,"Empleados, auxiliares o ayudantes"
+2023.097,2023,097,"Trabajadores de paquetería, de apoyo para espectáculos, mensajeros y repartidores de mercancías",3,"Empleados, auxiliares o ayudantes"
+2023.098,2023,098,"Otros trabajadores en actividades elementales y de apoyo, no clasificados anteriormente",3,"Empleados, auxiliares o ayudantes"
+2023.099,2023,099,Ocupaciones no especificadas,9,No especificado
+2023.100,2023,100,Busca trabajo,4,No trabajaba
+2023.110,2023,110,No trabaja,4,No trabajaba
+2023.997,2023,997,No aplica a menores de 5 años,10,No aplica
+2023.998,2023,998,Ocupaciones insuficientemente especificadas,9,No especificado
+2023.999,2023,999,No especificada,9,No especificado

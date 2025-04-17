@@ -1,0 +1,25 @@
+DES_INEGI	CAT_OND	CVE_CAT_OND
+Sin escolaridad 	Sin educación	1
+Menos de tres años de primaria 	Básica	2
+De 3 a 5 años de primaria 	Básica	2
+Primaria completa 	Básica	2
+Secundaria o equivalente 	Básica	2
+Preparatoria o equivalente 	Media	3
+Profesional 	Superior	4
+No aplica a menores de 6 años 	No aplica	5
+No especificada	No especificado	6
+Primaria incompleta	Básica	2
+Primaria completa	Básica	2
+Secundaria incompleta	Básica	2
+Secundaria completa	Básica	2
+Bachillerato o preparatoria	Media	3
+No aplica a menores de 6 años	No aplica	5
+Preescolar 	Básica	2
+Primaria incompleta 	Básica	2
+Secundaria incompleta 	Media	3
+Secundaria completa 	Media	3
+Bachillerato o preparatoria incompleto 	Media	3
+Bachillerato o preparatoria completo 	Media	3
+Posgrado 	Superior	4
+No aplica a menores de 3 años 	No aplica	5
+No especificado	No especificado	6
