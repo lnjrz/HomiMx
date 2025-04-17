@@ -4,7 +4,7 @@ rm(list=ls())
 library(purrr)
 packages<-c("foreign", "openxlsx","dplyr","purrr","lubridate")
 if (length(setdiff(packages, rownames(installed.packages()))) > 0) {
-  install.packages(setdiff(packages, rownames(installed.packages())))  
+  install.packages(setdiff(packages, rownames(installed.packages())))
 }
 lapply(packages, require, character.only=TRUE)
 # --- Directorio de trabajo
@@ -20,11 +20,11 @@ for (i in 0:7) {
                                        '9657','9658','9659','9680','9683','966X','9682',
                                        '9681','9600','9670','9671','9679','9601','9684',
                                        '9688','9689'),1,0)
-  HOM <- DEF %>% 
+  HOM <- DEF %>%
     filter(HOM == 1)
-  
+
   if(i%in%0){
-    BD90_97 <- HOM  
+    BD90_97 <- HOM
   }else{
     BD90_97 <- rbind(BD90_97,HOM)
   }
@@ -38,9 +38,9 @@ for (i in c(98:99)) {
   DEF$HOM <- ifelse(DEF$CVE_HOM%in%c('X93','X94','X95','X99','Y00','X91','X92','X85','X86','X87',
                                      'X88','X89','X90','X96','X97','X98','Y01','Y02','Y03','Y04',
                                      'Y05','Y06','Y07','Y08','Y09'),1,0)
-  HOM <- DEF %>% 
+  HOM <- DEF %>%
     filter(HOM == 1)
-  
+
   if(i%in%98){
     BD98_99 <- HOM}else{
       BD98_99 <- rbind(BD98_99,HOM)
@@ -54,9 +54,9 @@ for (i in c(paste0('0',0:1))) {
   DEF$HOM <- ifelse(DEF$CVE_HOM%in%c('X93','X94','X95','X99','Y00','X91','X92','X85','X86','X87',
                                          'X88','X89','X90','X96','X97','X98','Y01','Y02','Y03','Y04',
                                          'Y05','Y06','Y07','Y08','Y09'),1,0)
-  HOM <- DEF %>% 
+  HOM <- DEF %>%
     filter(HOM == 1)
-  
+
   if(i%in%"00"){
     BD00_01 <- HOM}else{
       BD00_01 <- rbind(BD00_01,HOM)
@@ -70,9 +70,9 @@ for (i in c(paste0('0',2:3))) {
   DEF$HOM <- ifelse(DEF$CVE_HOM%in%c('X93','X94','X95','X99','Y00','X91','X92','X85','X86','X87',
                                      'X88','X89','X90','X96','X97','X98','Y01','Y02','Y03','Y04',
                                      'Y05','Y06','Y07','Y08','Y09'),1,0)
-  HOM <- DEF %>% 
+  HOM <- DEF %>%
     filter(HOM == 1)
-  
+
   if(i%in%"02"){
     BD02_03 <- HOM}else{
       BD02_03 <- rbind(BD02_03,HOM)
@@ -86,9 +86,9 @@ for (i in c(paste0('0',4:9),10:11)) {
   DEF$HOM <- ifelse(DEF$CVE_HOM%in%c('X93','X94','X95','X99','Y00','X91','X92','X85','X86','X87',
                                      'X88','X89','X90','X96','X97','X98','Y01','Y02','Y03','Y04',
                                      'Y05','Y06','Y07','Y08','Y09'),1,0)
-  HOM <- DEF %>% 
+  HOM <- DEF %>%
     filter(HOM == 1)
-  
+
   if(i%in%"04"){
     BD04_11 <- HOM}else{
       BD04_11 <- rbind(BD04_11,HOM)
@@ -102,9 +102,9 @@ for (i in c(12)) {
   DEF$HOM <- ifelse(DEF$CVE_HOM%in%c('X93','X94','X95','X99','Y00','X91','X92','X85','X86','X87',
                                      'X88','X89','X90','X96','X97','X98','Y01','Y02','Y03','Y04',
                                      'Y05','Y06','Y07','Y08','Y09'),1,0)
-  HOM <- DEF %>% 
+  HOM <- DEF %>%
     filter(HOM == 1)
-  
+
   if(i%in%12){
     BD12 <- HOM}else{
       BD12 <- rbind(BD12,HOM)
@@ -118,9 +118,9 @@ for (i in c(13:21)) {
   DEF$HOM <- ifelse(DEF$CVE_HOM%in%c('X93','X94','X95','X99','Y00','X91','X92','X85','X86','X87',
                                      'X88','X89','X90','X96','X97','X98','Y01','Y02','Y03','Y04',
                                      'Y05','Y06','Y07','Y08','Y09'),1,0)
-  HOM <- DEF %>% 
+  HOM <- DEF %>%
     filter(HOM == 1)
-  
+
   if(i%in%13){
     BD13_21 <- HOM}else{
       BD13_21 <- rbind(BD13_21,HOM)
@@ -134,9 +134,9 @@ for (i in c(22)) {
   DEF$HOM <- ifelse(DEF$CVE_HOM%in%c('X93','X94','X95','X99','Y00','X91','X92','X85','X86','X87',
                                      'X88','X89','X90','X96','X97','X98','Y01','Y02','Y03','Y04',
                                      'Y05','Y06','Y07','Y08','Y09'),1,0)
-  HOM <- DEF %>% 
+  HOM <- DEF %>%
     filter(HOM == 1)
-  
+
   if(i%in%22){
     BD22 <- HOM}else{
       BD22 <- rbind(BD22,HOM)
@@ -150,9 +150,9 @@ for (i in c(23)) {
   DEF$HOM <- ifelse(DEF$CVE_HOM%in%c('X93','X94','X95','X99','Y00','X91','X92','X85','X86','X87',
                                      'X88','X89','X90','X96','X97','X98','Y01','Y02','Y03','Y04',
                                      'Y05','Y06','Y07','Y08','Y09'),1,0)
-  HOM <- DEF %>% 
+  HOM <- DEF %>%
     filter(HOM == 1)
-  
+
   if(i%in%23){
     BD23 <- HOM}else{
       BD23 <- rbind(BD23,HOM)
@@ -256,8 +256,10 @@ BDTOT$EDAD <- ifelse(BDTOT$EDAD<4000,0,BDTOT$EDAD)
 BDTOT$EDAD <- ifelse(BDTOT$EDAD%in%4000:4120,substr(BDTOT$EDAD,3,4),BDTOT$EDAD)
 BDTOT$EDAD <- ifelse(BDTOT$EDAD%in%4998,999,BDTOT$EDAD)
 # --- Homologacion de variable ANIO_OCUR para homologar a 4 digitos
+table(BDTOT$ANIO_OCUR)
 BDTOT$ANIO_OCUR <- ifelse(BDTOT$ANIO_OCUR%in%0:9,paste0("190",BDTOT$ANIO_OCUR),
-                          ifelse(BDTOT$ANIO_OCUR%in%10:99,paste0("19",BDTOT$ANIO_OCUR),BDTOT$ANIO_OCUR))
+                          ifelse(BDTOT$ANIO_OCUR%in%10:98,paste0("19",BDTOT$ANIO_OCUR),
+                                 ifelse(BDTOT$ANIO_OCUR%in%99,9999,BDTOT$ANIO_OCUR)))
 # --- Homologacion de variable ANIO_REGIS para homologar a 4 digitos
 BDTOT$ANIO_REGIS <- ifelse(BDTOT$ANIO_REGIS%in%0:9,paste0("190",BDTOT$ANIO_REGIS),
                           ifelse(BDTOT$ANIO_REGIS%in%10:99,paste0("19",BDTOT$ANIO_REGIS),BDTOT$ANIO_REGIS))
@@ -266,7 +268,7 @@ table(BDTOT$OCUPACION)
 BDTOT$ID_OCU <- paste0(BDTOT$ANIO_REGIS,".",BDTOT$OCUPACION)
 REC_OCU <- read.csv("C:/Users/alan5/OneDrive/Documentos/JAJG/Proyectos/Package/HomiMx/Generados/REC_OCU.csv",colClasses = c("ID_OCU"="character","CVE"="character"))
 names(REC_OCU)[5] <- "CAT_OCU"
-BDTOT <- left_join(BDTOT, REC_OCU[,c("ID_OCU","CAT_OCU")]) 
+BDTOT <- left_join(BDTOT, REC_OCU[,c("ID_OCU","CAT_OCU")])
 #1	Agricultor
 #2	Artesanos
 #3	Empleados, auxiliares o ayudantes
@@ -291,7 +293,7 @@ BDTOT<- left_join(BDTOT,EDU[,c("ID_EDU","CAT_ESC")])
 #4	Superior
 #5	No aplica
 #6	No especificado
-barplot(table(BDTOT[BDTOT$CAT_ESC%in%2 & BDTOT$ANIO_OCUR%in%1990:2023,]$ANIO_OCUR))
+barplot(table(BDTOT[BDTOT$ANIO_OCUR%in%1990:2023,]$ANIO_OCUR))
 # --- Homologacion de variable de estado civil
 table(BDTOT$EDO_CIVIL)
 CIV <- read.csv("C:/Users/alan5/OneDrive/Documentos/JAJG/Proyectos/Package/HomiMx/Generados/EDOCIVIL.csv",colClasses = c("ID_CIVIL"="character"))
@@ -322,7 +324,7 @@ BDTOT <- left_join(BDTOT,LUG[,c("ID_LUG","CAT_LUG")])
 #8	No aplica
 table(BDTOT$CAT_LUG)
 # --- Creacion variable fecha para obtener dia de la semana de ocurrencia
-BDTOT <- BDTOT %>% 
+BDTOT <- BDTOT %>%
   mutate(
     ANIO = ifelse(ANIO_OCUR == 9999,NA, ANIO_OCUR),
     MES = ifelse(MES_OCURR == 99, NA, MES_OCURR),
@@ -331,6 +333,17 @@ BDTOT <- BDTOT %>%
     DIA_SEMANA = weekdays(FECHA_OCURR)
     )
 table(is.na(BDTOT$DIA_SEMANA))
+# --- Algunas cosas extra
+BDTOT$MUN_OCURR <- paste0(BDTOT$ENT_OCURR,BDTOT$MUN_OCURR)
+BDTOT$MUN_REGIS <- paste0(BDTOT$ENT_REGIS,BDTOT$MUN_REGIS)
+BDTOT$MUN_RESID <- paste0(BDTOT$ENT_RESID,BDTOT$MUN_RESID)
+AUX <- as.data.frame(table(BDTOT$MUN_REGIS))
 
-saveRDS(BDTOT,"C:/Users/alan5/OneDrive/Documentos/JAJG/Proyectos/Package/HomiMx/data/HOMI9023.rds")
+names(BDTOT)
+
+AUX <- BDTOT[,c("ENT_REGIS","MUN_REGIS","ENT_RESID","MUN_RESID","ENT_OCURR","MUN_OCURR","CVE_HOM",
+                "SEXO","EDAD","ANIO_OCUR","MES_OCURR","ANIO_REGIS","MES_REGIS","REC_CAU","CAT_OCU",
+                "CAT_ESC","CAT_CIVIL","CAT_LUG","MES","DIA_SEMANA","HORAS")]
+
+saveRDS(AUX,"C:/Users/alan5/OneDrive/Documentos/JAJG/Proyectos/Package/HomiMx/data/HOMI9023.rds")
 

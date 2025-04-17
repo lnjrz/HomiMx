@@ -9,7 +9,8 @@ tabla_hora(
   anio_tipo = NULL,
   desagregacion = NULL,
   geo_tipo = "ocurrencia",
-  sexo = NULL
+  sexo = NULL,
+  edad = NULL
 )
 }
 \arguments{
@@ -22,6 +23,10 @@ tabla_hora(
 \item{geo_tipo}{\code{"registro"} o \code{"ocurrencia"} (por defecto \code{"ocurrencia"}).}
 
 \item{sexo}{\code{NULL}, \code{"hombres"}, \code{"mujeres"}.}
+
+\item{edad}{Vector numérico opcional con una o más edades (entre 0 y 99) que se desean filtrar.
+Por ejemplo: \code{edad = 25}, \code{edad = c(15:19)} o \code{edad = c(0:17, 24, 50)}.
+Si se deja como \code{NULL} (por defecto), se incluyen todas las edades.}
 }
 \value{
 Un data.frame con columnas \code{hora_00} a \code{hora_23}, más \code{no_especificado}.

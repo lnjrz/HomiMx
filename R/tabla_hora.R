@@ -8,13 +8,25 @@
 #' @param desagregacion `NULL`, `"entidad"` o `"municipio"`.
 #' @param geo_tipo `"registro"` o `"ocurrencia"` (por defecto `"ocurrencia"`).
 #' @param sexo `NULL`, `"hombres"`, `"mujeres"`.
+#' @param edad Vector numérico opcional con una o más edades (entre 0 y 99) que se desean filtrar.
+#' Por ejemplo: `edad = 25`, `edad = c(15:19)` o `edad = c(0:17, 24, 50)`.
+#' Si se deja como `NULL` (por defecto), se incluyen todas las edades.
 #'
 #' @return Un data.frame con columnas `hora_00` a `hora_23`, más `no_especificado`.
 #' @export
 #' @importFrom dplyr filter mutate group_by summarise n rename_with rename select across all_of
 #' @importFrom tidyr pivot_wider
 #' @importFrom magrittr %>%
-tabla_hora <- function(df, anio_tipo = NULL, desagregacion = NULL, geo_tipo = "ocurrencia", sexo = NULL) {
+tabla_hora <- function(df, anio_tipo = NULL, desagregacion = NULL, geo_tipo = "ocurrencia", sexo = NULL, edad=NULL) {
+
+  # Filtrado por edad
+  if (!is.null(edad)) {
+    df <- df[df$EDAD %in% edad, ]
+    if (nrow(df) == 0) {
+      warning("No hay registros con las edades especificadas.")
+      return(data.frame())
+    }
+  }
 
   anio_col <- if (is.null(anio_tipo) || anio_tipo == "ocurrencia") {
     "ANIO_OCUR"

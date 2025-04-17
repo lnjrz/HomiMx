@@ -8,10 +8,22 @@
 #' @param desagregacion Nivel geográfico adicional: `"entidad"`, `"municipio"` o `NULL`.
 #' @param geo_tipo Fuente del dato geográfico: `"registro"` o `"ocurrencia"` (por defecto `"ocurrencia"`).
 #' @param sexo Filtro opcional por sexo: `"hombres"`, `"mujeres"` o `NULL`.
+#' @param edad Vector numérico opcional con una o más edades (entre 0 y 99) que se desean filtrar.
+#' Por ejemplo: `edad = 25`, `edad = c(15:19)` o `edad = c(0:17, 24, 50)`.
+#' Si se deja como `NULL` (por defecto), se incluyen todas las edades.
 #'
 #' @return Un data.frame con columnas `ANIO_XXX`, claves geográficas (si aplica) y columnas `Dia_1`, ..., `Dia_7`.
 #' @export
-tabla_dia <- function(df, anio_tipo = NULL, desagregacion = NULL, geo_tipo = "ocurrencia", sexo = NULL) {
+tabla_dia <- function(df, anio_tipo = NULL, desagregacion = NULL, geo_tipo = "ocurrencia", sexo = NULL, edad=NULL) {
+
+  # Filtrado por edad
+  if (!is.null(edad)) {
+    df <- df[df$EDAD %in% edad, ]
+    if (nrow(df) == 0) {
+      warning("No hay registros con las edades especificadas.")
+      return(data.frame())
+    }
+  }
 
   anio_col <- if (is.null(anio_tipo) || anio_tipo == "ocurrencia") "ANIO_OCUR" else "ANIO_REGIS"
 

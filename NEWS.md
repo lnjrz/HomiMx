@@ -1,4 +1,4 @@
-# homiMx 1.0.0
+# homiMx 1.1
 
 ## 🎉 Versión inicial (estable)
 
@@ -15,6 +15,10 @@
 - `tabla_edocivil()`: Estado civil al momento de fallecer.
 - `tabla_lugar()`: Lugar de ocurrencia de la agresión.
 - `tabla_mes()`, `tabla_dia()`, `tabla_hora()`: Distribución temporal básica.
+
+## ✅ Mejoras de v1.1
+
+- parámetro de edad incluido
 
 ## 📂 Datos incluidos
 

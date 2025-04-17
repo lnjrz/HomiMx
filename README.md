@@ -11,7 +11,8 @@ desagregadas por:
 
 - Año de ocurrencia o registro  
 - Sexo  
-- Entidad y municipio  
+- Entidad y municipio
+- Edad
 - Causa de la defunción, ocupación, educación, estado civil, lugar, mes,
   día y hora .
 
@@ -58,6 +59,6 @@ año con año para incorporar la información más reciente.
 
 ***En desarrollo***
 
-Este paquete se encuentra en desarrollo activo. La versión 1.0 incluye
+Este paquete se encuentra en desarrollo activo. La versión 1.1 incluye
 solo funciones tabulares. Las funciones de visualización estarán
 disponibles en la versión 2.0.

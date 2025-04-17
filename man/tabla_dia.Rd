@@ -9,7 +9,8 @@ tabla_dia(
   anio_tipo = NULL,
   desagregacion = NULL,
   geo_tipo = "ocurrencia",
-  sexo = NULL
+  sexo = NULL,
+  edad = NULL
 )
 }
 \arguments{
@@ -22,6 +23,10 @@ tabla_dia(
 \item{geo_tipo}{Fuente del dato geográfico: \code{"registro"} o \code{"ocurrencia"} (por defecto \code{"ocurrencia"}).}
 
 \item{sexo}{Filtro opcional por sexo: \code{"hombres"}, \code{"mujeres"} o \code{NULL}.}
+
+\item{edad}{Vector numérico opcional con una o más edades (entre 0 y 99) que se desean filtrar.
+Por ejemplo: \code{edad = 25}, \code{edad = c(15:19)} o \code{edad = c(0:17, 24, 50)}.
+Si se deja como \code{NULL} (por defecto), se incluyen todas las edades.}
 }
 \value{
 Un data.frame con columnas \code{ANIO_XXX}, claves geográficas (si aplica) y columnas \code{Dia_1}, ..., \code{Dia_7}.

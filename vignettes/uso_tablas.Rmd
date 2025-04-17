@@ -12,6 +12,12 @@ knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>"
 )
+
+if (requireNamespace("HomiMx", quietly = TRUE)) {
+  library(HomiMx)
+}
+
+
 ```
 
 ## Introducción
@@ -42,7 +48,10 @@ Por simpleza de esta viñeta, a continuación se explica el funcionamiento de la
 
 ## Función *tabla_total()*
 
-La función contiene cuatro parametros, y solo es obligatorio especificar la base de datos __*(homidata)*__. Opcionalmente, el usuario puede especificar *anio_tipo*, es decir el año de "ocurrencia" o "registro". También puede selecionar la desagregación por "entidad" o "municipio" mediante el parametro *desagregacion* y especificar la desagregación geográfica como "registro" u "ocurrencia" con el parametro *geo_tipo*. Si el usuario no especifica los parametros opcionales, la función mostrara una tabla por año de ocurrencia sin desagregación geográfica, es decir, los homicidios que ocurrieron año con año como se muestra en la siguiente tabla:
+La función contiene cinco parametros, y solo es obligatorio especificar la base de datos __*(homidata)*__. Opcionalmente, el usuario puede especificar *anio_tipo*, es decir el año de "ocurrencia" o "registro". También puede selecionar la desagregación por "entidad" o "municipio" mediante el parametro *desagregacion* y especificar la desagregación geográfica como "registro" u "ocurrencia" con el parametro *geo_tipo*. Asimismo, si el usuario está interesado en conocer homicidios de edades especificas o rangos de edades, puede usar el parametro *edad*.
+
+
+Si el usuario no especifica los parametros opcionales, la función mostrara una tabla por año de ocurrencia sin desagregación geográfica o edad, es decir, el total los homicidios que ocurrieron año con año como se muestra en la siguiente tabla:
 
 
 ```{r tabla_total, echo=FALSE}
@@ -52,17 +61,17 @@ knitr::kable(
 )
 ```
 
-Al usar los parametros, es posible obtener una tabla por año de registro, entidad o municipio de ocurrencia: 
+Al usar los parametros, es posible obtener una tabla por año de registro, entidad o municipio de ocurrencia y para personas en un rango de edad, en este caso personas entre 12 y 17 años de edad: 
 ```{r, eval = FALSE}
 # Estructura completa
-tabla_total(homidata, anio_tipo="registro", desagregacion="entidad", geo_tipo="ocurrencia")
+tabla_total(homidata, anio_tipo="registro", desagregacion="entidad", geo_tipo="ocurrencia", edad = 12:17)
 
 ```
 
 ```{r tabla_total_com, echo=FALSE}
 knitr::kable(
-  head(tabla_total(homidata, anio_tipo = "registro",desagregacion = "entidad",geo_tipo = "ocurrencia"),10),
-  caption = "Homicidios nacionales por año (año de ocurrencia)"
+  head(tabla_total(homidata, anio_tipo = "registro",desagregacion = "entidad",geo_tipo = "ocurrencia", edad = 12:17),10),
+  caption = "Homicidios nacionales por año (año de registro)"
 )
 ```
 Como se puede observar, esta función proporciona cinco columnas en su forma predeterminada, una para los años y el resto para la desagregación por sexo. Al usar los parámetros, la función proporciona una columna que contiene la clave oficial de la entidad federativa o del municipio.  
@@ -71,13 +80,13 @@ Al respecto, este package cuenta con catalogos de las entidades federativas __*c
 
 ## Función *tabla_causa()*
 
-La principal diferencia de esta función (y del resto de funciones) con la función __tabla_total()__, es que las columnas de la tabla generada corresponden a las categorías de la función y no al sexo. En este caso, muestra las causas de la defunción listadas en CIE-10 y CIE-9, las cuales fueron reclasificadas mediante equivalencias para obtener homicidios cometidos por: disparo de arma de fuego, agresión con objeto cortante o punzante, ahorcamiento, extrangulamiento o asfixia, otros medio y medios no especificados.
+La principal diferencia de esta función (y del resto de funciones) con la función __tabla_total()__, es que las columnas de la tabla generada corresponden a las categorías de la función y no al sexo. En este caso, muestra las causas de la defunción listadas en CIE-10 y CIE-9, las cuales fueron reclasificadas mediante equivalencias para obtener homicidios cometidos por: _disparo de arma de fuego_, _agresión con objeto cortante o punzante_, _ahorcamiento, extrangulamiento o asfixia_, _otros medio_ y _medios no especificados_.
 
-Por ello, la estructura de la función tiene una pequeña variación, incorporando el paramétro *sexo* el cual puede tomar el valor "hombres" o "mujeres" y por defecto muestra el total. De tal forma, la función completa se construye de la siguiente forma:
+Por ello, la estructura de la función tiene una pequeña variación, incorporando el paramétro *sexo* el cual puede tomar el valor "hombres" o "mujeres" y por defecto muestra el total. De tal forma, la función completa se construye de la siguiente manera:
 
 ```{r, eval = FALSE}
 # Estructura completa
-tabla_causa(homidata, anio_tipo = "registro", desagregacion = "entidad", geo_tipo = "ocurrencia", sexo="hombres")
+tabla_causa(homidata, anio_tipo = "registro", desagregacion = "entidad", geo_tipo = "ocurrencia", sexo="hombres", edad = 18:49)
 
 ```
 
@@ -85,8 +94,8 @@ Y genera la siguiente tabla:
 
 ```{r tabla_causa_com, echo=FALSE}
 knitr::kable(
-  head(tabla_causa(homidata, anio_tipo = "registro", desagregacion = "entidad", geo_tipo = "ocurrencia", sexo="hombres"),10),
-  caption = "Homicidios por año de registro y entidad según causa de defunción"
+  head(tabla_causa(homidata, anio_tipo = "registro", desagregacion = "entidad", geo_tipo = "ocurrencia", sexo="hombres", edad=18:49),10),
+  caption = "Homicidios de hombres entre 18 y 49 años por año de registro y entidad según causa de defunción"
 )
 ```
 
