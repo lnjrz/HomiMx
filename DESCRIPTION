@@ -22,3 +22,5 @@ Suggests:
     testthat,
     pkgdown
 VignetteBuilder: knitr
+URL: https://github.com/lnjrz/HomiMx
+BugReports: https://github.com/lnjrz/HomiMx/issues
