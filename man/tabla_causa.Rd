@@ -2,36 +2,47 @@
 % Please edit documentation in R/tabla_causa.R
 \name{tabla_causa}
 \alias{tabla_causa}
-\title{Tabla de causas (REC_CAU) por año, opcionalmente por entidad o municipio}
+\title{Tabla de causas (REC_CAU) por año y nivel geográfico}
 \usage{
 tabla_causa(
-  df,
   anio_tipo = NULL,
   desagregacion = NULL,
   geo_tipo = "ocurrencia",
   sexo = NULL,
-  edad = NULL
+  edad = NULL,
+  periodo = NULL
 )
 }
 \arguments{
-\item{df}{Un data.frame que contenga las columnas \code{REC_CAU}, \code{ANIO_OCUR}, \code{ANIO_REGIS}, \code{SEXO} y claves geográficas.}
-
-\item{anio_tipo}{\code{"registro"}, \code{"ocurrencia"} o \code{NULL}.}
+\item{anio_tipo}{\code{"registro"}, \code{"ocurrencia"} o \code{NULL} (por defecto \code{"ocurrencia"}).}
 
 \item{desagregacion}{\code{NULL}, \code{"entidad"} o \code{"municipio"}.}
 
 \item{geo_tipo}{\code{"registro"} o \code{"ocurrencia"} (por defecto \code{"ocurrencia"}).}
 
-\item{sexo}{\code{NULL}, \code{"hombres"}, \code{"mujeres"}.}
+\item{sexo}{\code{NULL}, \code{"hombres"} o \code{"mujeres"}.}
 
-\item{edad}{Vector numérico opcional con una o más edades (entre 0 y 99) que se desean filtrar.
-Por ejemplo: \code{edad = 25}, \code{edad = c(15:19)} o \code{edad = c(0:17, 24, 50)}.
-Si se deja como \code{NULL} (por defecto), se incluyen todas las edades.}
+\item{edad}{Vector numérico opcional con una o más edades (entre 0 y 99).}
+
+\item{periodo}{Vector numérico opcional con uno o más años (por ejemplo: \code{periodo = 2010}, \code{periodo = 2005:2010}, \code{periodo = c(2015, 2020)}).
+Si se especifica, filtra los registros para que solo se incluyan los años indicados.}
 }
 \value{
-Un data.frame con columnas por causa: \code{arma_fuego}, \code{arma_cortante}, \code{asfixia}, \code{otros}, \code{no_especificado}
+Un \code{data.frame} con columnas \code{arma_fuego}, \code{arma_cortante}, \code{asfixia}, \code{otros}, \code{no_especificado},
+y columnas geográficas si aplica.
 }
 \description{
-Devuelve una tabla con el número de homicidios por categoría de causa (REC_CAU),
-con opción de desagregación por año, entidad o municipio y por sexo.
+Genera una tabla con el número de homicidios según categoría de causa
+(variable \code{REC_CAU}), con opción de desagregación por año, entidad o municipio,
+además de filtrado por sexo y grupo de edad.
+}
+\details{
+Las causas consideradas son:
+\itemize{
+\item \code{arma_fuego} (1)
+\item \code{arma_cortante} (2)
+\item \code{asfixia} (3)
+\item \code{otros} (4)
+\item \code{no_especificado} (5)
+}
 }

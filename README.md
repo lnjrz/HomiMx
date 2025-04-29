@@ -2,7 +2,7 @@
 # homiMx <img src="https://img.shields.io/badge/INEGI-based-blue" align="right" height="30"/>
 
 `homiMx` es un paquete en R para el análisis de **homicidios registrados
-en México** a partir de los microdatos de defunciones del INEGI
+en México** a partir de los microdatos de defunciones del *INEGI*
 (1990–2023).
 
 Integra una base de datos estandarizada de defunciones por agresión
@@ -38,13 +38,13 @@ devtools::install_github("lnjrz/homiMx")
 library(homiMx)
 
 # Total de homicidios por año (ocurrencia)
-table_total(homidata)
+tabla_total(homidata)
 
 # Total por entidad, año de registro
-table_total(homidata, anio_tipo = "registro", desagregacion = "entidad")
+tabla_total(homidata, anio_tipo = "registro", desagregacion = "entidad")
 
 # Homicidios por tipo de causa y sexo
-table_causa(homidata, sexo = "hombres")
+tabla_causa(homidata, sexo = "hombres")
 
 # Consulte la viñeta de funcionamiento para ver más ejemplos
 browseVignettes("homiMx")
@@ -59,6 +59,6 @@ año con año para incorporar la información más reciente.
 
 ***En desarrollo***
 
-Este paquete se encuentra en desarrollo activo. La versión 1.1 incluye
+Este paquete se encuentra en desarrollo activo. La versión 1.2 incluye
 solo funciones tabulares. Las funciones de visualización estarán
 disponibles en la versión 2.0.

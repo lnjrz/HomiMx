@@ -5,17 +5,15 @@
 \title{Tabla de homicidios por hora del día (HORAS) y año}
 \usage{
 tabla_hora(
-  df,
   anio_tipo = NULL,
   desagregacion = NULL,
   geo_tipo = "ocurrencia",
   sexo = NULL,
-  edad = NULL
+  edad = NULL,
+  periodo = NULL
 )
 }
 \arguments{
-\item{df}{Un data.frame con las columnas \code{HORAS}, \code{ANIO_OCUR}, \code{ANIO_REGIS}, \code{SEXO} y claves geográficas.}
-
 \item{anio_tipo}{\code{"registro"}, \code{"ocurrencia"} o \code{NULL} (por defecto \code{"ocurrencia"}).}
 
 \item{desagregacion}{\code{NULL}, \code{"entidad"} o \code{"municipio"}.}
@@ -24,14 +22,19 @@ tabla_hora(
 
 \item{sexo}{\code{NULL}, \code{"hombres"}, \code{"mujeres"}.}
 
-\item{edad}{Vector numérico opcional con una o más edades (entre 0 y 99) que se desean filtrar.
-Por ejemplo: \code{edad = 25}, \code{edad = c(15:19)} o \code{edad = c(0:17, 24, 50)}.
-Si se deja como \code{NULL} (por defecto), se incluyen todas las edades.}
+\item{edad}{Vector numérico opcional con una o más edades (entre 0 y 99).
+Por ejemplo: \code{edad = 25}, \code{edad = c(15:19)} o \code{edad = c(0:17, 24, 50)}.}
+
+\item{periodo}{Vector numérico opcional con uno o más años (por ejemplo: \code{periodo = 2010}, \code{periodo = 2005:2010}, \code{periodo = c(2015, 2020)}).
+Si se especifica, filtra los registros para que solo se incluyan los años indicados.}
 }
 \value{
-Un data.frame con columnas \code{hora_00} a \code{hora_23}, más \code{no_especificado}.
+Un data.frame con columnas \code{ANIO_XXX}, claves geográficas (si aplica), \code{hora_00} a \code{hora_23}, y \code{no_especificado}.
 }
 \description{
 Devuelve una tabla con la distribución de homicidios según la hora del día (\code{HORAS}),
-con opción de desagregación por año, entidad o municipio y por sexo.
+con opción de desagregación por año, entidad o municipio, y filtros por sexo y edad.
+}
+\details{
+Las columnas generadas van de \code{hora_00} a \code{hora_23}, además de \code{no_especificado}.
 }

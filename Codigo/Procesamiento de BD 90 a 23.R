@@ -253,8 +253,9 @@ BDTOT$REC_CAU <- ifelse(BDTOT$REC_CAU%in%c('X93','X94','X95'),1,# Disparo con ar
 table(BDTOT$EDAD)
 BDTOT$EDAD <- as.numeric(as.character(BDTOT$EDAD))
 BDTOT$EDAD <- ifelse(BDTOT$EDAD<4000,0,BDTOT$EDAD)
-BDTOT$EDAD <- ifelse(BDTOT$EDAD%in%4000:4120,substr(BDTOT$EDAD,3,4),BDTOT$EDAD)
+BDTOT$EDAD <- ifelse(BDTOT$EDAD%in%4000:4120,substr(BDTOT$EDAD,2,4),BDTOT$EDAD)
 BDTOT$EDAD <- ifelse(BDTOT$EDAD%in%4998,999,BDTOT$EDAD)
+BDTOT$EDAD <- as.numeric(as.character(BDTOT$EDAD))
 # --- Homologacion de variable ANIO_OCUR para homologar a 4 digitos
 table(BDTOT$ANIO_OCUR)
 BDTOT$ANIO_OCUR <- ifelse(BDTOT$ANIO_OCUR%in%0:9,paste0("190",BDTOT$ANIO_OCUR),

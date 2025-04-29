@@ -5,29 +5,31 @@
 \title{Tabla de homicidios totales por año, sexo y nivel geográfico}
 \usage{
 tabla_total(
-  df,
   anio_tipo = NULL,
   desagregacion = NULL,
   geo_tipo = "ocurrencia",
-  edad = NULL
+  edad = NULL,
+  periodo = NULL
 )
 }
 \arguments{
-\item{df}{Un data.frame con las columnas de año, sexo, geografía y claves territoriales}
+\item{anio_tipo}{\code{"registro"}, \code{"ocurrencia"} o \code{NULL} (por defecto \code{"ocurrencia"}).}
 
-\item{anio_tipo}{\code{"registro"}, \code{"ocurrencia"} o \code{NULL} (usa \code{"ocurrencia"} por defecto)}
+\item{desagregacion}{\code{NULL}, \code{"entidad"} o \code{"municipio"}.}
 
-\item{desagregacion}{\code{NULL}, \code{"entidad"} o \code{"municipio"}}
+\item{geo_tipo}{\code{"registro"} o \code{"ocurrencia"} (por defecto \code{"ocurrencia"}).}
 
-\item{geo_tipo}{\code{"registro"} o \code{"ocurrencia"} (por defecto \code{"ocurrencia"})}
+\item{edad}{Vector numérico opcional con una o más edades (entre 0 y 99).}
 
-\item{edad}{Vector numérico opcional con una o más edades (entre 0 y 99) que se desean filtrar.
-Por ejemplo: \code{edad = 25}, \code{edad = c(15:19)} o \code{edad = c(0:17, 24, 50)}.
-Si se deja como \code{NULL} (por defecto), se incluyen todas las edades.}
+\item{periodo}{Vector numérico opcional con uno o más años (por ejemplo: \code{periodo = 2010}, \code{periodo = 2005:2010}, \code{periodo = c(2015, 2020)}).
+Si se especifica, filtra los registros para que solo se incluyan los años indicados.}
 }
 \value{
-Un data.frame con totales por año, sexo, y opcionalmente por entidad o municipio
+Un \code{data.frame} con totales por año, sexo (\code{Hombres}, \code{Mujeres}, \code{NE}, \code{Total}),
+y, si se especifica, columnas geográficas como \code{NOM_ENT} o \code{NOMGEO}.
 }
 \description{
-Tabla de homicidios totales por año, sexo y nivel geográfico
+Genera una tabla con el número total de homicidios por año,
+con opción de desagregación por sexo, entidad o municipio,
+y filtrado por grupo de edad.
 }

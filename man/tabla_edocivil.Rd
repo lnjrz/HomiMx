@@ -5,17 +5,15 @@
 \title{Tabla de estado civil (CAT_CIVIL) por año}
 \usage{
 tabla_edocivil(
-  df,
   anio_tipo = NULL,
   desagregacion = NULL,
   geo_tipo = "ocurrencia",
   sexo = NULL,
-  edad = NULL
+  edad = NULL,
+  periodo = NULL
 )
 }
 \arguments{
-\item{df}{Un data.frame que contenga las columnas \code{CAT_CIVIL}, \code{ANIO_OCUR}, \code{ANIO_REGIS}, \code{SEXO} y claves geográficas.}
-
 \item{anio_tipo}{\code{"registro"}, \code{"ocurrencia"} o \code{NULL} (usa \code{"ocurrencia"} por defecto).}
 
 \item{desagregacion}{\code{NULL}, \code{"entidad"} o \code{"municipio"}.}
@@ -24,15 +22,20 @@ tabla_edocivil(
 
 \item{sexo}{\code{NULL}, \code{"hombres"}, \code{"mujeres"}.}
 
-\item{edad}{Vector numérico opcional con una o más edades (entre 0 y 99) que se desean filtrar.
-Por ejemplo: \code{edad = 25}, \code{edad = c(15:19)} o \code{edad = c(0:17, 24, 50)}.
-Si se deja como \code{NULL} (por defecto), se incluyen todas las edades.}
+\item{edad}{Vector numérico opcional con una o más edades (entre 0 y 99). Por ejemplo:
+\code{edad = 25}, \code{edad = c(15:19)} o \code{edad = c(0:17, 24, 50)}.}
+
+\item{periodo}{Vector numérico opcional con uno o más años (por ejemplo: \code{periodo = 2010}, \code{periodo = 2005:2010}, \code{periodo = c(2015, 2020)}).
+Si se especifica, filtra los registros para que solo se incluyan los años indicados.}
 }
 \value{
-Un data.frame con columnas para cada estado civil:
-\code{casado}, \code{divorciado}, \code{no_aplica}, \code{no_especificado}, \code{separado}, \code{soltero}, \code{union_libre}, \code{viudo}
+Un \code{data.frame} con columnas por año, claves geográficas (si aplica), y columnas por estado civil.
 }
 \description{
 Devuelve una tabla con la distribución de homicidios según estado civil (\code{CAT_CIVIL}),
-con opción de desagregación por año, entidad o municipio y por sexo.
+con opción de desagregación por año, entidad o municipio, y filtros por sexo y edad.
+}
+\details{
+Categorías: \code{casado}, \code{divorciado}, \code{no_aplica}, \code{no_especificado}, \code{separado},
+\code{soltero}, \code{union_libre}, \code{viudo}.
 }

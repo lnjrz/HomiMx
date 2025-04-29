@@ -5,31 +5,30 @@
 \title{Tabla de homicidios por mes (MES) y año}
 \usage{
 tabla_mes(
-  df,
   anio_tipo = NULL,
   desagregacion = NULL,
   geo_tipo = "ocurrencia",
   sexo = NULL,
-  edad = NULL
+  edad = NULL,
+  periodo = NULL
 )
 }
 \arguments{
-\item{df}{Un data.frame que contenga las columnas \code{MES}, \code{ANIO_OCUR}, \code{ANIO_REGIS}, \code{SEXO} y claves geográficas.}
+\item{anio_tipo}{\code{"registro"}, \code{"ocurrencia"} o \code{NULL} (por defecto \code{"ocurrencia"}).}
 
-\item{anio_tipo}{Tipo de año a usar: \code{"registro"} o \code{"ocurrencia"} (por defecto \code{"ocurrencia"}).}
+\item{desagregacion}{\code{"entidad"}, \code{"municipio"} o \code{NULL}.}
 
-\item{desagregacion}{Nivel geográfico adicional: \code{"entidad"}, \code{"municipio"} o \code{NULL}.}
+\item{geo_tipo}{\code{"registro"} o \code{"ocurrencia"} (por defecto \code{"ocurrencia"}).}
 
-\item{geo_tipo}{Fuente del dato geográfico: \code{"registro"} o \code{"ocurrencia"} (por defecto \code{"ocurrencia"}).}
+\item{sexo}{\code{"hombres"}, \code{"mujeres"} o \code{NULL}.}
 
-\item{sexo}{Filtro opcional por sexo: \code{"hombres"}, \code{"mujeres"} o \code{NULL}.}
+\item{edad}{Vector numérico opcional con una o más edades (entre 0 y 99) que se desean filtrar.}
 
-\item{edad}{Vector numérico opcional con una o más edades (entre 0 y 99) que se desean filtrar.
-Por ejemplo: \code{edad = 25}, \code{edad = c(15:19)} o \code{edad = c(0:17, 24, 50)}.
-Si se deja como \code{NULL} (por defecto), se incluyen todas las edades.}
+\item{periodo}{Vector numérico opcional con uno o más años (por ejemplo: \code{periodo = 2010}, \code{periodo = 2005:2010}, \code{periodo = c(2015, 2020)}).
+Si se especifica, filtra los registros para que solo se incluyan los años indicados.}
 }
 \value{
-Un data.frame con columnas \code{enero}, \code{febrero}, ..., \code{diciembre}.
+Un data.frame con columnas: \code{enero}, \code{febrero}, ..., \code{diciembre}
 }
 \description{
 Devuelve una tabla con el número de homicidios por mes (\code{MES}) y año,

@@ -5,33 +5,45 @@
 \title{Tabla de homicidios por día de la semana (DIA_SEMANA) y año}
 \usage{
 tabla_dia(
-  df,
   anio_tipo = NULL,
   desagregacion = NULL,
   geo_tipo = "ocurrencia",
   sexo = NULL,
-  edad = NULL
+  edad = NULL,
+  periodo = NULL
 )
 }
 \arguments{
-\item{df}{Un data.frame que contenga las columnas \code{DIA_SEMANA}, \code{ANIO_OCUR}, \code{ANIO_REGIS}, \code{SEXO} y claves geográficas.}
+\item{anio_tipo}{\code{"registro"}, \code{"ocurrencia"} o \code{NULL} (por defecto \code{"ocurrencia"}).}
 
-\item{anio_tipo}{Tipo de año a usar: \code{"registro"} o \code{"ocurrencia"} (por defecto \code{"ocurrencia"}).}
+\item{desagregacion}{\code{NULL}, \code{"entidad"} o \code{"municipio"}.}
 
-\item{desagregacion}{Nivel geográfico adicional: \code{"entidad"}, \code{"municipio"} o \code{NULL}.}
+\item{geo_tipo}{\code{"registro"} o \code{"ocurrencia"} (por defecto \code{"ocurrencia"}).}
 
-\item{geo_tipo}{Fuente del dato geográfico: \code{"registro"} o \code{"ocurrencia"} (por defecto \code{"ocurrencia"}).}
+\item{sexo}{\code{NULL}, \code{"hombres"}, \code{"mujeres"}.}
 
-\item{sexo}{Filtro opcional por sexo: \code{"hombres"}, \code{"mujeres"} o \code{NULL}.}
+\item{edad}{Vector numérico opcional con una o más edades (entre 0 y 99). Por ejemplo:
+\code{edad = 25}, \code{edad = c(15:19)} o \code{edad = c(0:17, 24, 50)}.}
 
-\item{edad}{Vector numérico opcional con una o más edades (entre 0 y 99) que se desean filtrar.
-Por ejemplo: \code{edad = 25}, \code{edad = c(15:19)} o \code{edad = c(0:17, 24, 50)}.
-Si se deja como \code{NULL} (por defecto), se incluyen todas las edades.}
+\item{periodo}{Vector numérico opcional con uno o más años (por ejemplo: \code{periodo = 2010}, \code{periodo = 2005:2010}, \code{periodo = c(2015, 2020)}).
+Si se especifica, filtra los registros para que solo se incluyan los años indicados.}
 }
 \value{
-Un data.frame con columnas \code{ANIO_XXX}, claves geográficas (si aplica) y columnas \code{Dia_1}, ..., \code{Dia_7}.
+Un \code{data.frame} con columnas por año, claves geográficas (si aplica) y días de la semana (\code{Dia_1} a \code{Dia_7}).
 }
 \description{
-Devuelve una tabla con la distribución de homicidios por día de la semana,
-con opción de desagregación por año, geografía y sexo.
+Devuelve una tabla con la distribución de homicidios por día de la semana (\code{DIA_SEMANA}),
+con opción de desagregación por año, entidad o municipio, filtrado por sexo y edad.
+}
+\details{
+Los días están codificados del 1 al 7, donde:
+\itemize{
+\item \code{Dia_1}: Domingo
+\item \code{Dia_2}: Lunes
+\item \code{Dia_3}: Martes
+\item \code{Dia_4}: Miércoles
+\item \code{Dia_5}: Jueves
+\item \code{Dia_6}: Viernes
+\item \code{Dia_7}: Sábado
+}
 }

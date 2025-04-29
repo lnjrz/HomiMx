@@ -2,37 +2,46 @@
 % Please edit documentation in R/tabla_ocupacion.R
 \name{tabla_ocupacion}
 \alias{tabla_ocupacion}
-\title{Tabla de ocupación (CAT_OCU) por año y opcionalmente por entidad o municipio}
+\title{Tabla de homicidios por ocupación (CAT_OCU), año y nivel geográfico}
 \usage{
 tabla_ocupacion(
-  df,
   anio_tipo = NULL,
   desagregacion = NULL,
   geo_tipo = "ocurrencia",
   sexo = NULL,
-  edad = NULL
+  edad = NULL,
+  periodo = NULL
 )
 }
 \arguments{
-\item{df}{Un data.frame que contenga las columnas \code{CAT_OCU}, \code{ANIO_OCUR}, \code{ANIO_REGIS}, \code{SEXO} y claves geográficas.}
+\item{anio_tipo}{\code{"registro"}, \code{"ocurrencia"} o \code{NULL} (por defecto \code{"ocurrencia"}).
+Especifica si el año a considerar es el de registro o el de ocurrencia.}
 
-\item{anio_tipo}{\code{"registro"}, \code{"ocurrencia"} o \code{NULL} (usa \code{"ocurrencia"} por defecto).}
+\item{desagregacion}{\code{NULL}, \code{"entidad"} o \code{"municipio"}.
+Define el nivel geográfico para desagregar la información.}
 
-\item{desagregacion}{\code{NULL}, \code{"entidad"} o \code{"municipio"}.}
+\item{geo_tipo}{\code{"registro"} o \code{"ocurrencia"} (por defecto \code{"ocurrencia"}).
+Indica si la desagregación geográfica corresponde al lugar de registro o ocurrencia.}
 
-\item{geo_tipo}{\code{"registro"} o \code{"ocurrencia"} (por defecto \code{"ocurrencia"}).}
+\item{sexo}{\code{NULL}, \code{"hombres"} o \code{"mujeres"}.
+Si se especifica, filtra los homicidios por sexo.}
 
-\item{sexo}{\code{NULL}, \code{"hombres"}, \code{"mujeres"}.}
-
-\item{edad}{Vector numérico opcional con una o más edades (entre 0 y 99) que se desean filtrar.
+\item{edad}{Vector numérico opcional con una o más edades (entre 0 y 99).
 Por ejemplo: \code{edad = 25}, \code{edad = c(15:19)} o \code{edad = c(0:17, 24, 50)}.
 Si se deja como \code{NULL} (por defecto), se incluyen todas las edades.}
+
+\item{periodo}{Vector numérico opcional con uno o más años (por ejemplo: \code{periodo = 2010}, \code{periodo = 2005:2010}, \code{periodo = c(2015, 2020)}).
+Si se especifica, filtra los registros para que solo se incluyan los años indicados.}
 }
 \value{
-Un data.frame con columnas para cada categoría ocupacional: \code{agricultor}, \code{artesanos}, \code{empleados}, \code{no_trabajaba},
-\code{comerciantes}, \code{operadores}, \code{directores}, \code{profesionales}, \code{no_especificado}, \code{no_aplica}, \code{seguridad}
+Un \code{data.frame} con columnas para cada categoría ocupacional:
+\code{agricultor}, \code{artesanos}, \code{empleados}, \code{no_trabajaba},
+\code{comerciantes}, \code{operadores}, \code{directores}, \code{profesionales},
+\code{seguridad}, \code{no_especificado}, \code{no_aplica}.
+Puede incluir columnas geográficas como \code{NOM_ENT} o \code{NOMGEO} si se especifica \code{desagregacion}.
 }
 \description{
-Devuelve una tabla con la distribución de homicidios según categoría ocupacional,
-con opción de desagregación por año, entidad o municipio y por sexo.
+Genera una tabla con el número de homicidios según categoría ocupacional
+(variable \code{CAT_OCU}), con opción de desagregación por año, entidad o municipio,
+además de filtrado por sexo y grupo de edad.
 }
